@@ -32,13 +32,22 @@ LebiDE is an interactive learning platform for preparing the **Leben in Deutschl
 
 ![Home](public/screenshots/home.png)
 
+### Bundesland Selection
+![Bundesland](docs/screenshots/bundesland.png)
+
 ### Quiz Interface
 
 ![Quiz](public/screenshots/quiz.png)
 
+### Test Mode
+![Test](docs/screenshots/test.png)
+
 ### Mixed Test Mode
 
 ![Mixed Test](public/screenshots/mixed-test.png)
+
+### Results
+![Results](docs/screenshots/results.png)
 
 ### Wrong Answers Review
 

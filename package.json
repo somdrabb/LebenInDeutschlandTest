@@ -37,11 +37,12 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "format": "prettier --write README.md CONTRIBUTING.md CODE_OF_CONDUCT.md CHANGELOG.md docs/**/*.md .github/**/*.md",
-    "format:check": "prettier --check README.md CONTRIBUTING.md CODE_OF_CONDUCT.md CHANGELOG.md docs/**/*.md .github/**/*.md",
-    "lint": "eslint .",
     "build": "react-scripts build",
-    "test": "react-scripts test --watchAll=false --passWithNoTests",
+    "test": "react-scripts test --passWithNoTests",
+    "test:ci": "react-scripts test --watchAll=false --passWithNoTests",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "lint": "eslint .",
     "eject": "react-scripts eject",
     "build-deploy": "npm run build && firebase deploy --only hosting"
   },

@@ -1,10 +1,18 @@
 ## What changed?
-- 
+
+-
+
+## Why?
+
+-
 
 ## Screenshots (if UI change)
-- 
+
+-
 
 ## Checklist
+
 - [ ] `npm run build` passes
-- [ ] No secrets committed
-- [ ] Updated docs/README if needed
+- [ ] `npm run test:ci` passes
+- [ ] No secrets committed (.env, keys, passwords)
+- [ ] Docs/README updated if needed

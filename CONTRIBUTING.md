@@ -1,26 +1,16 @@
 # Contributing
 
-Thank you for wanting to help improve LebiDE!
+## Setup
 
 1. Fork the repository.
-2. Create a new branch:
+2. Create a branch: `git checkout -b feature/my-change`
+3. Install dependencies: `npm ci`
+4. Run the dev server: `npm start`
 
-```bash
-git checkout -b feature/my-feature
-```
+## PR rules
 
-3. Commit your changes with a clear message:
+- Keep pull requests small and focused.
+- Add screenshots for any UI changes.
+- Ensure CI passes before requesting review.
 
-```bash
-git commit -m "Add new feature"
-```
-
-4. Push the branch to your fork:
-
-```bash
-git push origin feature/my-feature
-```
-
-5. Open a Pull Request and describe the motivation + testing you've done.
-
-We review contributions quickly—please keep changes scoped to a single feature or fix when possible.
+Thanks for helping improve LebiDE!

@@ -1,3 +1,8 @@
 build
 node_modules
 .firebase
+public/bundesland/
+public/questions/
+public/
+src/
+tailwind.config.js
