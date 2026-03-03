@@ -29,31 +29,35 @@ LebiDE is an interactive learning platform for preparing the **Leben in Deutschl
 ## 📸 Screenshots
 
 ### Home Page
+
 ![Home](public/screenshots/home.png)
 
 ### Quiz Interface
+
 ![Quiz](public/screenshots/quiz.png)
 
 ### Mixed Test Mode
+
 ![Mixed Test](public/screenshots/mixed-test.png)
 
 ### Wrong Answers Review
+
 ![Wrong Answers](public/screenshots/wrong-answers.png)
 
 ---
 
 ## 🧱 Tech Stack
 
-| Layer            | Technology                    |
-|------------------|-------------------------------|
-| Frontend         | React (Create React App)      |
-| UI               | TailwindCSS + Framer Motion   |
-| Authentication   | Firebase Authentication       |
-| Realtime Sync    | Firebase Realtime Database    |
-| Feedback Storage | Firebase Firestore            |
-| Forms            | EmailJS                       |
-| Spam Protection  | Google reCAPTCHA              |
-| Hosting          | Firebase Hosting              |
+| Layer            | Technology                  |
+| ---------------- | --------------------------- |
+| Frontend         | React (Create React App)    |
+| UI               | TailwindCSS + Framer Motion |
+| Authentication   | Firebase Authentication     |
+| Realtime Sync    | Firebase Realtime Database  |
+| Feedback Storage | Firebase Firestore          |
+| Forms            | EmailJS                     |
+| Spam Protection  | Google reCAPTCHA            |
+| Hosting          | Firebase Hosting            |
 
 ---
 
@@ -188,10 +192,10 @@ The `firebase.json` config rewrites all routes to `build/index.html` so the clie
 The project bundles the **complete official question dataset**.
 
 | Category             | Questions |
-|----------------------|-----------|
+| -------------------- | --------- |
 | General questions    | 300       |
 | Bundesland questions | 160       |
-| **Total**           | **460**   |
+| **Total**            | **460**   |
 
 JSON files live under `public/` and `public/bundesland/` and are loaded via fetch in the quiz components.
 
@@ -209,13 +213,13 @@ Supported providers: Google, Facebook, Microsoft, GitHub, email/password, anonym
 
 ## 💾 Local Storage Keys
 
-| Key                | Purpose                         |
-|--------------------|---------------------------------|
-| `wrongAnswers`       | Tracks incorrect questions       |
-| `quiz_history`       | Captures quiz attempts           |
-| `mixed_test_results` | Stores exam simulation outcomes  |
-| `selectedBundesland` | Records the active Bundesland    |
-| `lebide_ui_state`    | UI state cache                   |
+| Key                  | Purpose                         |
+| -------------------- | ------------------------------- |
+| `wrongAnswers`       | Tracks incorrect questions      |
+| `quiz_history`       | Captures quiz attempts          |
+| `mixed_test_results` | Stores exam simulation outcomes |
+| `selectedBundesland` | Records the active Bundesland   |
+| `lebide_ui_state`    | UI state cache                  |
 
 ---
 
@@ -259,12 +263,21 @@ Please include changelog notes for any architectural updates.
 
 ## 🧠 Quiz Modes
 
-| Mode             | Description                          |
-|------------------|--------------------------------------|
-| Learning Mode    | Practice questions by topic           |
-| Mixed Test       | Simulates the real exam               |
-| Wrong Answers    | Review mistakes and explanations      |
-| Unanswered       | Continue unfinished question sets     |
+| Mode          | Description                       |
+| ------------- | --------------------------------- |
+| Learning Mode | Practice questions by topic       |
+| Mixed Test    | Simulates the real exam           |
+| Wrong Answers | Review mistakes and explanations  |
+| Unanswered    | Continue unfinished question sets |
+
+---
+
+## 📚 Documentation
+
+- [Architecture](docs/ARCHITECTURE.md)
+- [Datasets](docs/DATASETS.md)
+- [Security](docs/SECURITY.md)
+- [Changelog](CHANGELOG.md)
 
 ---
 
