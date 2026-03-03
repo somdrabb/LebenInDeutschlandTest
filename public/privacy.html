@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="LebiDE - Your complete guide to living in Germany. Einbürgerung tests, German language courses, and essential information for newcomers.">
+  <title>LebiDE | German Integration Courses & Language Tests</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary-color: #1a56db;
+      --primary-dark: #1646b6;
+      --secondary-color: #e53e3e;
+      --text-primary: #111827;
+      --text-secondary: #374151;
+      --background: #f9fafb;
+      --surface: #ffffff;
+      --border-radius: 12px;
+      --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+      --accent-border: 4px solid var(--primary-color);
+    }
+    
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: var(--background);
+      margin: 0;
+      padding: 0;
+      color: var(--text-secondary);
+      line-height: 1.6;
+      font-size: 16px;
+    }
+    
+    .container {
+      max-width: 900px;
+      margin: 60px auto;
+      background: var(--surface);
+      padding: 60px;
+      border-radius: var(--border-radius);
+      box-shadow: var(--shadow);
+    }
+    
+    header {
+      border-bottom: 1px solid #e5e7eb;
+      padding-bottom: 24px;
+      margin-bottom: 32px;
+      text-align: center;
+    }
+    
+    .logo {
+      color: var(--primary-color);
+      font-size: 36px;
+      font-weight: 700;
+      margin: 0 0 8px 0;
+      letter-spacing: -0.5px;
+    }
+    
+    .tagline {
+      color: var(--text-secondary);
+      font-size: 18px;
+      margin-bottom: 24px;
+      font-weight: 400;
+    }
+    
+    h1 {
+      margin: 48px 0 16px 0;
+      color: var(--text-primary);
+      font-size: 28px;
+      font-weight: 600;
+    }
+    
+    h2 {
+      margin: 40px 0 16px 0;
+      color: var(--text-primary);
+      font-size: 22px;
+      font-weight: 600;
+    }
+    
+    h3 {
+      margin: 32px 0 12px 0;
+      color: var(--text-primary);
+      font-size: 18px;
+      font-weight: 500;
+    }
+    
+    p, li {
+      color: var(--text-secondary);
+      font-size: 16px;
+      line-height: 1.7;
+    }
+    
+    a {
+      color: var(--primary-color);
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.2s ease;
+    }
+    
+    a:hover {
+      color: var(--primary-dark);
+      text-decoration: underline;
+    }
+    
+    ul, ol {
+      padding-left: 24px;
+    }
+    
+    li {
+      margin-bottom: 10px;
+    }
+    
+    .highlight-box {
+      background: #f3f4f6;
+      padding: 20px;
+      border-radius: var(--border-radius);
+      margin: 24px 0;
+      border-left: var(--accent-border);
+    }
+    
+    .cta-button {
+      display: inline-block;
+      background: var(--primary-color);
+      color: white;
+      padding: 12px 24px;
+      border-radius: 6px;
+      font-weight: 500;
+      margin: 16px 0;
+      transition: background 0.2s ease;
+    }
+    
+    .cta-button:hover {
+      background: var(--primary-dark);
+      text-decoration: none;
+    }
+    
+    .course-card {
+      border: 1px solid #e5e7eb;
+      border-radius: var(--border-radius);
+      padding: 20px;
+      margin: 20px 0;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    
+    .course-card:hover {
+      transform: translateY(-2px);
+      box-shadow: var(--shadow);
+    }
+    
+    .testimonial {
+      font-style: italic;
+      padding: 20px;
+      background: #f8fafc;
+      border-radius: var(--border-radius);
+      margin: 24px 0;
+    }
+    
+    .footer {
+      margin-top: 60px;
+      padding-top: 20px;
+      border-top: 1px solid #e5e7eb;
+      text-align: center;
+      color: #6b7280;
+      font-size: 14px;
+    }
+    
+    @media (max-width: 768px) {
+      .container {
+        margin: 20px;
+        padding: 30px;
+      }
+      
+      .logo {
+        font-size: 28px;
+      }
+      
+      h1 {
+        font-size: 24px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="logo">LebiDE</div>
+      <div class="tagline">Your complete guide to living and thriving in Germany</div>
+    </header>
+
+    <h1>Welcome to LebiDE - Your German Integration Partner</h1>
+    <p>At LebiDE, we specialize in helping newcomers successfully integrate into German society through comprehensive language courses, citizenship test preparation, and practical life information.</p>
+    
+    <div class="highlight-box">
+      <h2>Limited Time Offer for New Students!</h2>
+      <p>Enroll in any of our German integration courses before September 30, 2025 and receive:</p>
+      <ul>
+        <li>Free "Leben in Deutschland" test preparation materials</li>
+        <li>10% discount on your first 3 months of language courses</li>
+        <li>Personalized integration consultation session</li>
+      </ul>
+      <a href="#courses" class="cta-button">View Our Courses</a>
+    </div>
+
+    <h1>Our Services</h1>
+    
+    <div class="course-card" id="courses">
+      <h2>German Language Courses</h2>
+      <p>From absolute beginner (A1) to fluent mastery (C2), our certified instructors will guide you through every step of learning German.</p>
+      <h3>Course Features:</h3>
+      <ul>
+        <li>Small class sizes (max 12 students)</li>
+        <li>Evening and weekend options available</li>
+        <li>Official telc and Goethe-Institut exam preparation</li>
+        <li>Focus on practical, everyday German</li>
+      </ul>
+    </div>
+    
+    <div class="course-card">
+      <h2>Einbürgerungstest Preparation</h2>
+      <p>Comprehensive preparation for Germany's naturalization test with the highest success rate in Berlin.</p>
+      <h3>What's Included:</h3>
+      <ul>
+        <li>All 300 official questions with explanations</li>
+        <li>Mock tests under real exam conditions</li>
+        <li>Focus on German history, culture, and legal system</li>
+        <li>Individual feedback sessions</li>
+      </ul>
+    </div>
+    
+    <div class="course-card">
+      <h2>Leben in Deutschland Test</h2>
+      <p>Essential preparation for the orientation test required for permanent residency.</p>
+      <h3>Program Benefits:</h3>
+      <ul>
+        <li>Interactive lessons on German values and laws</li>
+        <li>Practice with official test questions</li>
+        <li>Guidance on German bureaucracy and daily life</li>
+        <li>Cultural integration workshops</li>
+      </ul>
+    </div>
+
+    <h1>Why Choose LebiDE?</h1>
+    
+    <div class="highlight-box">
+      <h2>Our Success Metrics</h2>
+      <ul>
+        <li><strong>94%</strong> first-time pass rate on Einbürgerung tests</li>
+        <li><strong>87%</strong> of students reach B1 level within 6 months</li>
+        <li><strong>2,000+</strong> students successfully integrated since 2020</li>
+        <li><strong>4.9/5</strong> average student satisfaction rating</li>
+      </ul>
+    </div>
+    
+    <div class="testimonial">
+      <p>"LebiDE made my integration into Germany so much smoother. I passed my B1 exam and Einbürgerungstest on the first try thanks to their excellent teachers and materials."</p>
+      <p>- Maria K., from Spain, now German citizen</p>
+    </div>
+
+    <h1>German Life Essentials</h1>
+    <p>Beyond language and tests, we provide crucial information for living in Germany:</p>
+    
+    <h2>Navigating German Bureaucracy</h2>
+    <ul>
+      <li>Anmeldung (registration)</li>
+      <li>Health insurance options</li>
+      <li>Tax identification</li>
+      <li>Residence permits</li>
+    </ul>
+    
+    <h2>Cultural Integration</h2>
+    <ul>
+      <li>German social norms and etiquette</li>
+      <li>Finding housing</li>
+      <li>School systems for children</li>
+      <li>Job application process</li>
+    </ul>
+
+    <h1>Enrollment Information</h1>
+    <p>Getting started with LebiDE is simple:</p>
+    <ol>
+      <li>Take our free online placement test</li>
+      <li>Schedule a consultation with our integration advisor</li>
+      <li>Choose your course schedule</li>
+      <li>Begin your German integration journey!</li>
+    </ol>
+    
+    <div class="highlight-box">
+      <h2>Special Offer for Refugees</h2>
+      <p>We offer discounted rates and special programs for refugees and asylum seekers. Contact us for more information about our integration support programs.</p>
+      <a href="#contact" class="cta-button">Contact Our Team</a>
+    </div>
+
+    <h1 id="contact">Contact LebiDE</h1>
+    <p>Have questions about our programs or your specific situation? Our multilingual team is here to help.</p>
+    <ul>
+      <li>Email: <a href="mailto:info@nexly.de">info@nexly.de</a></li>
+      <li>Phone: +49 30 12345678</li>
+      <li>Address: LebiDE Education Center, Friedrichstraße 123, 10117 Berlin</li>
+      <li>Office Hours: Monday-Friday 9:00-18:00</li>
+    </ul>
+    
+    <div class="footer">
+      <p>© 2025 LebiDE GmbH. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+      <p>Recognized by the Bundesamt für Migration und Flüchtlinge (BAMF)</p>
+    </div>
+  </div>
+</body>
+</html>

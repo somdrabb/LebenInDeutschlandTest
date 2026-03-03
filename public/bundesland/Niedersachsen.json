@@ -1,0 +1,152 @@
+[
+  {
+    "id": "Niedersachsen381",
+    "question": {
+      "de": "Welches Wappen gehört zum Bundesland Niedersachsen?",
+      "en": "Which coat of arms belongs to the federal state of Lower Saxony?",
+      "bn": "নিদারজাখসেন রাজ্যের প্রতীক কোনটি?"
+    },
+    "options": {
+      "a": { "de": "Bild 1", "en": "Image 1", "bn": "ছবি ১" },
+      "b": { "de": "Bild 2", "en": "Image 2", "bn": "ছবি ২" },
+      "c": { "de": "Bild 3", "en": "Image 3", "bn": "ছবি ৩" },
+      "d": { "de": "Bild 4", "en": "Image 4", "bn": "ছবি ৪" }
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "id": "Niedersachsen382",
+    "question": {
+      "de": "Welches ist ein Landkreis in Niedersachsen?",
+      "en": "Which is a district in Lower Saxony?",
+      "bn": "নিম্নের কোনটি নিদারজাখসেনের একটি জেলা?"
+    },
+    "options": {
+      "a": { "de": "Ammerland", "en": "Ammerland", "bn": "আমারল্যান্ড" },
+      "b": { "de": "Rhein-Sieg-Kreis", "en": "Rhein-Sieg district", "bn": "রাইন-সিগ জেলা" },
+      "c": { "de": "Nordfriesland", "en": "Nordfriesland", "bn": "নর্ডফ্রাইসল্যান্ড" },
+      "d": { "de": "Vogtlandkreis", "en": "Vogtland district", "bn": "ভগ্টল্যান্ড জেলা" }
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "id": "Niedersachsen383",
+    "question": {
+      "de": "Für wie viele Jahre wird der Landtag in Niedersachsen gewählt?",
+      "en": "For how many years is the state parliament in Lower Saxony elected?",
+      "bn": "নিদারজাখসেনে কত বছরের জন্য ল্যান্ডট্যাগ নির্বাচিত হয়?"
+    },
+    "options": {
+      "a": { "de": "3", "en": "3", "bn": "৩" },
+      "b": { "de": "4", "en": "4", "bn": "৪" },
+      "c": { "de": "5", "en": "5", "bn": "৫" },
+      "d": { "de": "6", "en": "6", "bn": "৬" }
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "id": "Niedersachsen384",
+    "question": {
+      "de": "Ab welchem Alter darf man in Niedersachsen bei Kommunalwahlen wählen?",
+      "en": "From what age can you vote in local elections in Lower Saxony?",
+      "bn": "নিদারজাখসেনে স্থানীয় নির্বাচনে ভোট দেওয়ার ন্যূনতম বয়স কত?"
+    },
+    "options": {
+      "a": { "de": "14", "en": "14", "bn": "১৪" },
+      "b": { "de": "16", "en": "16", "bn": "১৬" },
+      "c": { "de": "18", "en": "18", "bn": "১৮" },
+      "d": { "de": "20", "en": "20", "bn": "২০" }
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "id": "Niedersachsen385",
+    "question": {
+      "de": "Welche Farben hat die Landesflagge von Niedersachsen?",
+      "en": "What are the colors of the Lower Saxony state flag?",
+      "bn": "নিদারজাখসেন রাজ্যের পতাকার রং কী?"
+    },
+    "options": {
+      "a": { "de": "weiß-blau", "en": "white-blue", "bn": "সাদা-নীল" },
+      "b": { "de": "schwarz-rot-gold", "en": "black-red-gold", "bn": "কালো-লাল-সোনা" },
+      "c": { "de": "schwarz-gelb", "en": "black-yellow", "bn": "কালো-হলুদ" },
+      "d": { "de": "blau-weiß-rot", "en": "blue-white-red", "bn": "নীল-সাদা-লাল" }
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "id": "Niedersachsen386",
+    "question": {
+      "de": "Wo können Sie sich in Niedersachsen über politische Themen informieren?",
+      "en": "Where can you get information about political topics in Lower Saxony?",
+      "bn": "নিদারজাখসেনে আপনি কোথায় রাজনৈতিক বিষয়ে তথ্য পেতে পারেন?"
+    },
+    "options": {
+      "a": { "de": "bei der Landeszentrale für politische Bildung", "en": "at the State Center for Political Education", "bn": "রাজ্য রাজনৈতিক শিক্ষা কেন্দ্রে" },
+      "b": { "de": "beim Ordnungsamt der Gemeinde", "en": "at the municipal public order office", "bn": "জেলা প্রশাসন অফিসে" },
+      "c": { "de": "bei der Verbraucherzentrale", "en": "at the consumer advice center", "bn": "ভোক্তা পরামর্শ কেন্দ্রে" },
+      "d": { "de": "bei den Kirchen", "en": "at the churches", "bn": "গির্জায়" }
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "id": "Niedersachsen387",
+    "question": {
+      "de": "Die Landeshauptstadt von Niedersachsen heißt ...",
+      "en": "The state capital of Lower Saxony is called ...",
+      "bn": "নিদারজাখসেনের রাজধানীর নাম কী?"
+    },
+    "options": {
+      "a": { "de": "Hannover", "en": "Hanover", "bn": "হ্যানোভারে" },
+      "b": { "de": "Braunschweig", "en": "Braunschweig", "bn": "ব্রাউনশভাইগ" },
+      "c": { "de": "Wolfsburg", "en": "Wolfsburg", "bn": "উল্‌ফসবুর্গ" },
+      "d": { "de": "Osnabrück", "en": "Osnabrück", "bn": "ওসনাব্রুক" }
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "id": "Niedersachsen388",
+    "question": {
+      "de": "Welches Bundesland ist Niedersachsen?",
+      "en": "Which federal state is Lower Saxony?",
+      "bn": "নিদারজাখসেন কোন ফেডারেল রাজ্য?"
+    },
+    "options": {
+      "a": { "de": "1", "en": "1", "bn": "১" },
+      "b": { "de": "2", "en": "2", "bn": "২" },
+      "c": { "de": "3", "en": "3", "bn": "৩" },
+      "d": { "de": "4", "en": "4", "bn": "৪" }
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "id": "Niedersachsen389",
+    "question": {
+      "de": "Wie nennt man die Regierungschefin/den Regierungschef in Niedersachsen?",
+      "en": "What is the title of the head of government in Lower Saxony?",
+      "bn": "নিদারজাখসেনের সরকারের প্রধানকে কী বলা হয়?"
+    },
+    "options": {
+      "a": { "de": "Erste Ministerin/Erster Minister", "en": "First Minister", "bn": "প্রথম মন্ত্রী" },
+      "b": { "de": "Premierministerin/Premierminister", "en": "Prime Minister", "bn": "প্রধানমন্ত্রী" },
+      "c": { "de": "Bürgermeisterin/Bürgermeister", "en": "Mayor", "bn": "মেয়র" },
+      "d": { "de": "Ministerpräsidentin/Ministerpräsident", "en": "Minister President", "bn": "মিনিস্টার প্রেসিডেন্ট" }
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "id": "Niedersachsen390",
+    "question": {
+      "de": "Welche Ministerin/welchen Minister hat Niedersachsen nicht?",
+      "en": "Which minister does Lower Saxony not have?",
+      "bn": "নিদারজাখসেনের কোন মন্ত্রী নেই?"
+    },
+    "options": {
+      "a": { "de": "Justizministerin/Justizminister", "en": "Minister of Justice", "bn": "বিচারমন্ত্রী" },
+      "b": { "de": "Außenministerin/Außenminister", "en": "Foreign Minister", "bn": "পররাষ্ট্রমন্ত্রী" },
+      "c": { "de": "Finanzministerin/Finanzminister", "en": "Finance Minister", "bn": "অর্থমন্ত্রী" },
+      "d": { "de": "Innenministerin/Innenminister", "en": "Interior Minister", "bn": "স্বরাষ্ট্র মন্ত্রী" }
+    },
+    "correctAnswer": "b"
+  }
+]

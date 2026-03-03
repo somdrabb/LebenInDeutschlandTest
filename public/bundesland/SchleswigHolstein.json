@@ -1,0 +1,154 @@
+[
+  {
+    "id": "SchleswigHolstein441",
+    "question": {
+      "de": "Welches Wappen gehört zum Bundesland Schleswig-Holstein?",
+      "en": "Which coat of arms belongs to the federal state of Schleswig-Holstein?",
+      "bn": "কোনটি শ্লেসউইগ-হলস্টেইন রাজ্যের প্রতীক?"
+    },
+    "image": "schleswig_holstein_wappen.png",
+    "options": {
+      "a": { "de": "Bild 1", "en": "Image 1", "bn": "ছবি ১" },
+      "b": { "de": "Bild 2", "en": "Image 2", "bn": "ছবি ২" },
+      "c": { "de": "Bild 3", "en": "Image 3", "bn": "ছবি ৩" },
+      "d": { "de": "Bild 4", "en": "Image 4", "bn": "ছবি ৪" }
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "id": "SchleswigHolstein442",
+    "question": {
+      "de": "Welches ist ein Landkreis in Schleswig-Holstein?",
+      "en": "Which is a district in Schleswig-Holstein?",
+      "bn": "নিম্নের কোনটি শ্লেসউইগ-হলস্টেইনের একটি জেলা?"
+    },
+    "options": {
+      "a": { "de": "Ammerland", "en": "Ammerland", "bn": "আমারল্যান্ড" },
+      "b": { "de": "Mecklenburgische Seenplatte", "en": "Mecklenburg Lake District", "bn": "মেকলেনবুর্গ লেক ডিস্ট্রিক্ট" },
+      "c": { "de": "Nordfriesland", "en": "Nordfriesland", "bn": "নর্ডফ্রিসল্যান্ড" },
+      "d": { "de": "Rhein-Sieg-Kreis", "en": "Rhein-Sieg district", "bn": "রাইন-জিগ জেলা" }
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "id": "SchleswigHolstein443",
+    "question": {
+      "de": "Für wie viele Jahre wird der Landtag in Schleswig-Holstein gewählt?",
+      "en": "For how many years is the state parliament in Schleswig-Holstein elected?",
+      "bn": "শ্লেসউইগ-হলস্টেইনে কত বছরের জন্য ল্যান্ডট্যাগ নির্বাচিত হয়?"
+    },
+    "options": {
+      "a": { "de": "3", "en": "3", "bn": "৩" },
+      "b": { "de": "4", "en": "4", "bn": "৪" },
+      "c": { "de": "5", "en": "5", "bn": "৫" },
+      "d": { "de": "6", "en": "6", "bn": "৬" }
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "id": "SchleswigHolstein444",
+    "question": {
+      "de": "Ab welchem Alter darf man in Schleswig-Holstein bei Kommunalwahlen wählen?",
+      "en": "From what age can you vote in local elections in Schleswig-Holstein?",
+      "bn": "শ্লেসউইগ-হলস্টেইনে স্থানীয় নির্বাচনে ভোট দেওয়ার ন্যূনতম বয়স কত?"
+    },
+    "options": {
+      "a": { "de": "14", "en": "14", "bn": "১৪" },
+      "b": { "de": "16", "en": "16", "bn": "১৬" },
+      "c": { "de": "18", "en": "18", "bn": "১৮" },
+      "d": { "de": "20", "en": "20", "bn": "২০" }
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "id": "SchleswigHolstein445",
+    "question": {
+      "de": "Welche Farben hat die Landesflagge von Schleswig-Holstein?",
+      "en": "What are the colors of the Schleswig-Holstein state flag?",
+      "bn": "শ্লেসউইগ-হলস্টেইন পতাকার রং কী?"
+    },
+    "options": {
+      "a": { "de": "weiß-blau", "en": "white-blue", "bn": "সাদা-নীল" },
+      "b": { "de": "blau-weiß-rot", "en": "blue-white-red", "bn": "নীল-সাদা-লাল" },
+      "c": { "de": "weiß-rot", "en": "white-red", "bn": "সাদা-লাল" },
+      "d": { "de": "grün-weiß-rot", "en": "green-white-red", "bn": "সবুজ-সাদা-লাল" }
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "id": "SchleswigHolstein446",
+    "question": {
+      "de": "Wo können Sie sich in Schleswig-Holstein über politische Themen informieren?",
+      "en": "Where can you get information about political topics in Schleswig-Holstein?",
+      "bn": "শ্লেসউইগ-হলস্টেইনে আপনি কোথায় রাজনৈতিক বিষয়ে তথ্য পেতে পারেন?"
+    },
+    "options": {
+      "a": { "de": "bei der Verbraucherzentrale", "en": "at the consumer center", "bn": "ভোক্তা কেন্দ্রে" },
+      "b": { "de": "beim Ordnungsamt der Gemeinde", "en": "at the local regulatory office", "bn": "কমিউনিটির অর্ডnungsঅ্যাম্টে" },
+      "c": { "de": "beim / bei der Landesbeauftragten für politische Bildung", "en": "at the State Commissioner for Civic Education", "bn": "রাজ্য রাজনৈতিক শিক্ষা কমিশনারের কার্যালয়ে" },
+      "d": { "de": "bei den Kirchen", "en": "at the churches", "bn": "গির্জায়" }
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "id": "SchleswigHolstein447",
+    "question": {
+      "de": "Die Landeshauptstadt von Schleswig-Holstein heißt ...",
+      "en": "The state capital of Schleswig-Holstein is called ...",
+      "bn": "শ্লেসউইগ-হলস্টেইনের রাজধানীর নাম কী?"
+    },
+    "options": {
+      "a": { "de": "Husum.", "en": "Husum", "bn": "হুসুম" },
+      "b": { "de": "Flensburg.", "en": "Flensburg", "bn": "ফ্লেন্সবুর্গ" },
+      "c": { "de": "Lübeck.", "en": "Lübeck", "bn": "লুবেক" },
+      "d": { "de": "Kiel.", "en": "Kiel", "bn": "কিল" }
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "id": "SchleswigHolstein448",
+    "question": {
+      "de": "Welches Bundesland ist Schleswig-Holstein?",
+      "en": "Which federal state is Schleswig-Holstein?",
+      "bn": "শ্লেসউইগ-হলস্টেইন কোন ফেডারেল রাজ্য?"
+    },
+    "image": "schleswig_holstein_map.png",
+    "options": {
+      "a": { "de": "1", "en": "1", "bn": "১" },
+      "b": { "de": "2", "en": "2", "bn": "২" },
+      "c": { "de": "3", "en": "3", "bn": "৩" },
+      "d": { "de": "4", "en": "4", "bn": "৪" }
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "id": "SchleswigHolstein449",
+    "question": {
+      "de": "Wie nennt man die Regierungschefin/den Regierungschef in Schleswig-Holstein?",
+      "en": "What is the title of the head of government in Schleswig-Holstein?",
+      "bn": "শ্লেসউইগ-হলস্টেইনের সরকারের প্রধানকে কী বলা হয়?"
+    },
+    "options": {
+      "a": { "de": "Erste Ministerin/Erster Minister", "en": "First Minister", "bn": "প্রথম মন্ত্রী" },
+      "b": { "de": "Premierministerin/Premierminister", "en": "Prime Minister", "bn": "প্রধানমন্ত্রী" },
+      "c": { "de": "Bürgermeisterin/Bürgermeister", "en": "Mayor", "bn": "মেয়র" },
+      "d": { "de": "Ministerpräsidentin/Ministerpräsident", "en": "Minister President", "bn": "মন্ত্রীসভা সভাপতি" }
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "id": "SchleswigHolstein450",
+    "question": {
+      "de": "Welche Ministerin/welchen Minister hat Schleswig-Holstein nicht?",
+      "en": "Which minister does Schleswig-Holstein not have?",
+      "bn": "শ্লেসউইগ-হলস্টেইনের কোন মন্ত্রী নেই?"
+    },
+    "options": {
+      "a": { "de": "Justizministerin/Justizminister", "en": "Justice Minister", "bn": "বিচারমন্ত্রী" },
+      "b": { "de": "Außenministerin/Außenminister", "en": "Foreign Minister", "bn": "পররাষ্ট্র মন্ত্রী" },
+      "c": { "de": "Finanzministerin/Finanzminister", "en": "Finance Minister", "bn": "অর্থমন্ত্রী" },
+      "d": { "de": "Innenministerin/Innenminister", "en": "Interior Minister", "bn": "স্বরাষ্ট্র মন্ত্রী" }
+    },
+    "correctAnswer": "b"
+  }
+]

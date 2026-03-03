@@ -1,0 +1,154 @@
+[
+  {
+    "id": "Hamburg351",
+    "question": {
+      "de": "Welches Wappen gehört zur Freien und Hansestadt Hamburg?",
+      "en": "Which coat of arms belongs to the Free and Hanseatic City of Hamburg?",
+      "bn": "ফ্রি অ্যান্ড হানসিয়াটিক সিটি হ্যামবুর্গের কোট অব আর্মস কোনটি?"
+    },
+    "image": "question1_hamburg_wappen.png",
+    "options": {
+      "a": { "de": "Bild 1", "en": "Image 1", "bn": "ছবি ১" },
+      "b": { "de": "Bild 2", "en": "Image 2", "bn": "ছবি ২" },
+      "c": { "de": "Bild 3", "en": "Image 3", "bn": "ছবি ৩" },
+      "d": { "de": "Bild 4", "en": "Image 4", "bn": "ছবি ৪" }
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "id": "Hamburg352",
+    "question": {
+      "de": "Welches ist ein Bezirk von Hamburg?",
+      "en": "Which is a district of Hamburg?",
+      "bn": "হ্যামবুর্গের একটি জেলা কোনটি?"
+    },
+    "options": {
+      "a": { "de": "Altona", "en": "Altona", "bn": "আলটোনা" },
+      "b": { "de": "Hemelingen", "en": "Hemelingen", "bn": "হেমেলিংগেন" },
+      "c": { "de": "Pankow", "en": "Pankow", "bn": "প্যাঙ্কো" },
+      "d": { "de": "Mecklenburgische Seenplatte", "en": "Mecklenburg Lake District", "bn": "মেকলেনবুর্গিশ সীনপ্লাটে" }
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "id": "Hamburg353",
+    "question": {
+      "de": "Für wie viele Jahre wird das Landesparlament in Hamburg gewählt?",
+      "en": "For how many years is the state parliament in Hamburg elected?",
+      "bn": "হ্যামবুর্গ রাজ্য সংসদ কত বছরের জন্য নির্বাচিত হয়?"
+    },
+    "options": {
+      "a": { "de": "3", "en": "3", "bn": "৩" },
+      "b": { "de": "4", "en": "4", "bn": "৪" },
+      "c": { "de": "5", "en": "5", "bn": "৫" },
+      "d": { "de": "6", "en": "6", "bn": "৬" }
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "id": "Hamburg354",
+    "question": {
+      "de": "Ab welchem Alter darf man in Hamburg bei Kommunalwahlen (Wahl der Bezirksversammlungen) wählen?",
+      "en": "From what age can one vote in Hamburg in local elections (district assembly elections)?",
+      "bn": "হ্যামবুর্গে স্থানীয় (বিভাগীয় পরিষদ) নির্বাচনে ভোট দিতে হলে বয়স কত?"
+    },
+    "options": {
+      "a": { "de": "14", "en": "14", "bn": "১৪" },
+      "b": { "de": "16", "en": "16", "bn": "১৬" },
+      "c": { "de": "18", "en": "18", "bn": "১৮" },
+      "d": { "de": "20", "en": "20", "bn": "২০" }
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "id": "Hamburg355",
+    "question": {
+      "de": "Welche Farben hat die Landesflagge von Hamburg?",
+      "en": "What are the colors of the state flag of Hamburg?",
+      "bn": "হ্যামবুর্গের রাজ্য পতাকার রঙ কী?"
+    },
+    "options": {
+      "a": { "de": "blau-weiß-rot", "en": "blue-white-red", "bn": "নীল-সাদা-লাল" },
+      "b": { "de": "weiß-rot", "en": "white-red", "bn": "সাদা-লাল" },
+      "c": { "de": "grün-weiß-rot", "en": "green-white-red", "bn": "সবুজ-সাদা-লাল" },
+      "d": { "de": "schwarz-gelb", "en": "black-yellow", "bn": "কালো-হলুদ" }
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "id": "Hamburg356",
+    "question": {
+      "de": "Wo können Sie sich in Hamburg über politische Themen informieren?",
+      "en": "Where can you get information about political topics in Hamburg?",
+      "bn": "আপনি হ্যামবুর্গে রাজনৈতিক বিষয়ে কোথায় তথ্য পেতে পারেন?"
+    },
+    "options": {
+      "a": { "de": "beim Ordnungsamt der Gemeinde", "en": "at the municipal public order office", "bn": "জেলা প্রশাসন অফিসে" },
+      "b": { "de": "bei der Verbraucherzentrale", "en": "at the consumer advice center", "bn": "ভোক্তা পরামর্শ কেন্দ্রে" },
+      "c": { "de": "bei den Kirchen", "en": "at the churches", "bn": "গির্জায়" },
+      "d": { "de": "bei der Landeszentrale für politische Bildung", "en": "at the State Center for Political Education", "bn": "রাজ্য রাজনৈতিক শিক্ষা কেন্দ্রে" }
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "id": "Hamburg357",
+    "question": {
+      "de": "Welches Bundesland ist ein Stadtstaat?",
+      "en": "Which federal state is a city-state?",
+      "bn": "কোন রাজ্যটি একটি শহর-রাজ্য?"
+    },
+    "options": {
+      "a": { "de": "Hamburg", "en": "Hamburg", "bn": "হ্যামবুর্গ" },
+      "b": { "de": "Sachsen", "en": "Saxony", "bn": "স্যাক্সনি" },
+      "c": { "de": "Bayern", "en": "Bavaria", "bn": "বাভারিয়া" },
+      "d": { "de": "Thüringen", "en": "Thuringia", "bn": "থুরিঙ্গেন" }
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "id": "Hamburg358",
+    "question": {
+      "de": "Welches Bundesland ist Hamburg?",
+      "en": "Which federal state is Hamburg?",
+      "bn": "হ্যামবুর্গ কোন ফেডারেল রাজ্য?"
+    },
+    "image": "question8_hamburg_map.jpg",
+    "options": {
+      "a": { "de": "1", "en": "1", "bn": "১" },
+      "b": { "de": "2", "en": "2", "bn": "২" },
+      "c": { "de": "3", "en": "3", "bn": "৩" },
+      "d": { "de": "4", "en": "4", "bn": "৪" }
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "id": "Hamburg359",
+    "question": {
+      "de": "Wie nennt man die Regierungschefin/den Regierungschef des Stadtstaates Hamburg?",
+      "en": "What is the title of the head of government of the city-state of Hamburg?",
+      "bn": "হ্যামবুর্গ শহর-রাজ্যের সরকারের প্রধানকে কী বলা হয়?"
+    },
+    "options": {
+      "a": { "de": "Ministerpräsidentin/Ministerpräsident", "en": "Minister President", "bn": "মিনিস্টার প্রেসিডেন্ট" },
+      "b": { "de": "Erste Bürgermeisterin/Erster Bürgermeister", "en": "First Mayor", "bn": "প্রথম মেয়র" },
+      "c": { "de": "Regierende Senatorin/Regierender Senator", "en": "Governing Senator", "bn": "গভার্নিং সেনেটর" },
+      "d": { "de": "Oberbürgermeisterin/Oberbürgermeister", "en": "Lord Mayor", "bn": "সিনিয়র মেয়র" }
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "id": "Hamburg360",
+    "question": {
+      "de": "Welche Senatorin/welchen Senator hat Hamburg nicht?",
+      "en": "Which senator does Hamburg not have?",
+      "bn": "হ্যামবুর্গে কোন সেনেটর নেই?"
+    },
+    "options": {
+      "a": { "de": "Justizsenatorin/Justizsenator", "en": "Justice Senator", "bn": "বিচার সেনেটর" },
+      "b": { "de": "Senatorin/Senator für Außenbeziehungen", "en": "Senator for Foreign Affairs", "bn": "পররাষ্ট্র সেনেটর" },
+      "c": { "de": "Finanzsenatorin/Finanzsenator", "en": "Finance Senator", "bn": "অর্থ সেনেটর" },
+      "d": { "de": "Innensenatorin/Innensenator", "en": "Interior Senator", "bn": "স্বরাষ্ট্র সেনেটর" }
+    },
+    "correctAnswer": "b"
+  }
+]

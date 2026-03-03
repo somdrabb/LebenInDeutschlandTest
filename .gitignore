@@ -18,8 +18,6 @@
 .env.development.local
 .env.test.local
 .env.production.local
-
-# keep .env.example committed
 !.env.example
 
 # firebase
@@ -34,7 +32,7 @@ yarn-debug.log*
 yarn-error.log*
 lerna-debug.log*
 
-# os / editor
+# OS / editor
 .DS_Store
 .idea/
 .vscode/
@@ -42,3 +40,6 @@ lerna-debug.log*
 # misc
 public/*.log
 /public/logs/
+
+# tooling
+DISABLE_ESLINT_PLUGIN=true

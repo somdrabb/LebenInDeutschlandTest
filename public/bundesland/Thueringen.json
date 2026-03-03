@@ -1,0 +1,154 @@
+[
+  {
+    "id": "Thueringia451",
+    "question": {
+      "de": "Welches Wappen gehört zum Freistaat Thüringen?",
+      "en": "Which coat of arms belongs to the Free State of Thuringia?",
+      "bn": "কোনটি থুরিঙ্গেন রাজ্যের প্রতীক?"
+    },
+    "image": "thueringen_wappen.png",
+    "options": {
+      "a": { "de": "Bild 1", "en": "Image 1", "bn": "ছবি ১" },
+      "b": { "de": "Bild 2", "en": "Image 2", "bn": "ছবি ২" },
+      "c": { "de": "Bild 3", "en": "Image 3", "bn": "ছবি ৩" },
+      "d": { "de": "Bild 4", "en": "Image 4", "bn": "ছবি ৪" }
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "id": "Thuringia452",
+    "question": {
+      "de": "Welches ist ein Landkreis in Thüringen?",
+      "en": "Which is a district in Thuringia?",
+      "bn": "নিম্নের কোনটি থুরিঙ্গেনের একটি জেলা?"
+    },
+    "options": {
+      "a": { "de": "Ammerland", "en": "Ammerland", "bn": "আমারল্যান্ড" },
+      "b": { "de": "Altötting", "en": "Altötting", "bn": "আল্টোটিং" },
+      "c": { "de": "Nordfriesland", "en": "Nordfriesland", "bn": "নর্ডফ্রিসল্যান্ড" },
+      "d": { "de": "Wartburgkreis", "en": "Wartburgkreis", "bn": "ভার্টবুর্গক্রাইস" }
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "id": "Thuringia453",
+    "question": {
+      "de": "Für wie viele Jahre wird der Landtag in Thüringen gewählt?",
+      "en": "For how many years is the state parliament in Thuringia elected?",
+      "bn": "থুরিঙ্গেনে কত বছরের জন্য ল্যান্ডট্যাগ নির্বাচিত হয়?"
+    },
+    "options": {
+      "a": { "de": "3", "en": "3", "bn": "৩" },
+      "b": { "de": "4", "en": "4", "bn": "৪" },
+      "c": { "de": "5", "en": "5", "bn": "৫" },
+      "d": { "de": "6", "en": "6", "bn": "৬" }
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "id": "Thuringia454",
+    "question": {
+      "de": "Ab welchem Alter darf man in Thüringen bei Kommunalwahlen wählen?",
+      "en": "From what age can you vote in local elections in Thuringia?",
+      "bn": "থুরিঙ্গেনে স্থানীয় নির্বাচনে ভোট দেওয়ার ন্যূনতম বয়স কত?"
+    },
+    "options": {
+      "a": { "de": "14", "en": "14", "bn": "১৪" },
+      "b": { "de": "16", "en": "16", "bn": "১৬" },
+      "c": { "de": "18", "en": "18", "bn": "১৮" },
+      "d": { "de": "20", "en": "20", "bn": "২০" }
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "id": "Thuringia455",
+    "question": {
+      "de": "Welche Farben hat die Landesflagge von Thüringen?",
+      "en": "What colors does the Thuringian state flag have?",
+      "bn": "থুরিঙ্গেন রাজ্যের পতাকার রং কী কী?"
+    },
+    "options": {
+      "a": { "de": "blau-weiß-rot", "en": "blue-white-red", "bn": "নীল-সাদা-লাল" },
+      "b": { "de": "weiß-rot", "en": "white-red", "bn": "সাদা-লাল" },
+      "c": { "de": "grün-weiß-rot", "en": "green-white-red", "bn": "সবুজ-সাদা-লাল" },
+      "d": { "de": "schwarz-gold", "en": "black-gold", "bn": "কালো-সোনালী" }
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "id": "Thuringia456",
+    "question": {
+      "de": "Wo können Sie sich in Thüringen über politische Themen informieren?",
+      "en": "Where can you get information about political topics in Thuringia?",
+      "bn": "থুরিঙ্গেনে আপনি কোথায় রাজনৈতিক বিষয়ে তথ্য পেতে পারেন?"
+    },
+    "options": {
+      "a": { "de": "bei den Kirchen", "en": "at the churches", "bn": "গির্জাগুলোতে" },
+      "b": { "de": "bei der Verbraucherzentrale", "en": "at the consumer center", "bn": "ভোক্তা কেন্দ্র থেকে" },
+      "c": { "de": "bei der Landeszentrale für politische Bildung", "en": "at the State Center for Civic Education", "bn": "রাজ্য রাজনৈতিক শিক্ষা কেন্দ্রে" },
+      "d": { "de": "beim Ordnungsamt der Gemeinde", "en": "at the local regulatory office", "bn": "কমিউনিটির অর্ডnungsঅ্যাম্টে" }
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "id": "Thuringia457",
+    "question": {
+      "de": "Die Landeshauptstadt von Thüringen heißt ...",
+      "en": "The state capital of Thuringia is called ...",
+      "bn": "থুরিঙ্গেন রাজ্যের রাজধানীর নাম কী?"
+    },
+    "options": {
+      "a": { "de": "Eisenach", "en": "Eisenach", "bn": "আইজেনাখ" },
+      "b": { "de": "Erfurt", "en": "Erfurt", "bn": "এরফুর্ট" },
+      "c": { "de": "Gera", "en": "Gera", "bn": "গেরা" },
+      "d": { "de": "Jena", "en": "Jena", "bn": "জেনা" }
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "id": "Thuringia458",
+    "question": {
+      "de": "Welches Bundesland ist Thüringen?",
+      "en": "Which federal state is Thuringia?",
+      "bn": "থুরিঙ্গেন কোন ফেডারেল রাজ্য?"
+    },
+    "image": "thueringen_map.png",
+    "options": {
+      "a": { "de": "1", "en": "1", "bn": "১" },
+      "b": { "de": "2", "en": "2", "bn": "২" },
+      "c": { "de": "3", "en": "3", "bn": "৩" },
+      "d": { "de": "4", "en": "4", "bn": "৪" }
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "id": "Thuringia459",
+    "question": {
+      "de": "Wie nennt man die Regierungschefin/den Regierungschef in Thüringen?",
+      "en": "What is the title of the head of government in Thuringia?",
+      "bn": "থুরিঙ্গেনের সরকারের প্রধানকে কী বলা হয়?"
+    },
+    "options": {
+      "a": { "de": "Erste Ministerin/Erster Minister", "en": "First Minister", "bn": "প্রথম মন্ত্রী" },
+      "b": { "de": "Premierministerin/Premierminister", "en": "Prime Minister", "bn": "প্রধানমন্ত্রী" },
+      "c": { "de": "Bürgermeisterin/Bürgermeister", "en": "Mayor", "bn": "মেয়র" },
+      "d": { "de": "Ministerpräsidentin/Ministerpräsident", "en": "Minister President", "bn": "মন্ত্রীসভা সভাপতি" }
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "id": "Thuringia460",
+    "question": {
+      "de": "Welche Ministerin/welchen Minister hat Thüringen nicht?",
+      "en": "Which minister does Thuringia not have?",
+      "bn": "থুরিঙ্গেনের কোন মন্ত্রী নেই?"
+    },
+    "options": {
+      "a": { "de": "Justizministerin/Justizminister", "en": "Justice Minister", "bn": "বিচারমন্ত্রী" },
+      "b": { "de": "Außenministerin/Außenminister", "en": "Foreign Minister", "bn": "পররাষ্ট্র মন্ত্রী" },
+      "c": { "de": "Finanzministerin/Finanzminister", "en": "Finance Minister", "bn": "অর্থমন্ত্রী" },
+      "d": { "de": "Innenministerin/Innenminister", "en": "Interior Minister", "bn": "স্বরাষ্ট্র মন্ত্রী" }
+    },
+    "correctAnswer": "b"
+  }
+]

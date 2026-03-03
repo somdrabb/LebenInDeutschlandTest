@@ -1,0 +1,312 @@
+[
+  {
+    "id": "BadenWuerttemberg301",
+    "question": {
+      "de": "Welches Wappen gehört zum Bundesland Baden-Württemberg?",
+      "en": "Which coat of arms belongs to the state of Baden-Württemberg?",
+      "bn": "নিম্নের কোনটি বাডেন-ভুর্টেমবর্গ রাজ্যের প্রতীক?"
+    },
+    "options": {
+      "a": {
+        "de": "Bild 1",
+        "en": "Image 1",
+        "bn": "ছবি ১"
+      },
+      "b": {
+        "de": "Bild 2",
+        "en": "Image 2",
+        "bn": "ছবি ২"
+      },
+      "c": {
+        "de": "Bild 3",
+        "en": "Image 3",
+        "bn": "ছবি ৩"
+      },
+      "d": {
+        "de": "Bild 4",
+        "en": "Image 4",
+        "bn": "ছবি ৪"
+      }
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "id": "BadenWuerttemberg302",
+    "question": {
+      "de": "Welches ist ein Landkreis in Baden-Württemberg?",
+      "en": "Which of the following is a district in Baden-Württemberg?",
+      "bn": "নিম্নের কোনটি বাডেন-ভুর্টেমবর্গের একটি জেলা?"
+    },
+    "options": {
+      "a": {
+        "de": "Mecklenburgische Seenplatte",
+        "en": "Mecklenburg Lake District",
+        "bn": "মেকলেনবুর্গ লেক জেলা"
+      },
+      "b": {
+        "de": "Neckar-Odenwald-Kreis",
+        "en": "Neckar-Odenwald District",
+        "bn": "নেকার-ওডেনভাল্ড জেলা"
+      },
+      "c": {
+        "de": "Nordfriesland",
+        "en": "North Frisia",
+        "bn": "নর্থ ফ্রিসল্যান্ড"
+      },
+      "d": {
+        "de": "Altötting",
+        "en": "Altötting",
+        "bn": "আল্টয়েটিং"
+      }
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "id": "BadenWuerttemberg303",
+    "question": {
+      "de": "Für wie viele Jahre wird der Landtag in Baden-Württemberg gewählt?",
+      "en": "For how many years is the state parliament of Baden-Württemberg elected?",
+      "bn": "বাডেন-ভুর্টেমবর্গে রাজ্য সংসদ কত বছরের জন্য নির্বাচিত হয়?"
+    },
+    "options": {
+      "a": {
+        "de": "3",
+        "en": "3",
+        "bn": "৩ বছর"
+      },
+      "b": {
+        "de": "4",
+        "en": "4",
+        "bn": "৪ বছর"
+      },
+      "c": {
+        "de": "5",
+        "en": "5",
+        "bn": "৫ বছর"
+      },
+      "d": {
+        "de": "6",
+        "en": "6",
+        "bn": "৬ বছর"
+      }
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "id": "BadenWuerttemberg304",
+    "question": {
+      "de": "Ab welchem Alter darf man in Baden-Württemberg bei Kommunalwahlen wählen?",
+      "en": "From what age can you vote in local elections in Baden-Württemberg?",
+      "bn": "বাডেন-ভুর্টেমবর্গে স্থানীয় নির্বাচনে ভোট দেওয়ার জন্য ন্যূনতম বয়স কত?"
+    },
+    "options": {
+      "a": {
+        "de": "14",
+        "en": "14",
+        "bn": "১৪ বছর"
+      },
+      "b": {
+        "de": "16",
+        "en": "16",
+        "bn": "১৬ বছর"
+      },
+      "c": {
+        "de": "18",
+        "en": "18",
+        "bn": "১৮ বছর"
+      },
+      "d": {
+        "de": "20",
+        "en": "20",
+        "bn": "২০ বছর"
+      }
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "id": "BadenWuerttemberg305",
+    "question": {
+      "de": "Welche Farben hat die Landesflagge von Baden-Württemberg?",
+      "en": "What are the colors of the state flag of Baden-Württemberg?",
+      "bn": "বাডেন-ভুর্টেমবর্গের রাজ্য পতাকার রং কী কী?"
+    },
+    "options": {
+      "a": {
+        "de": "blau-weiß-rot",
+        "en": "blue-white-red",
+        "bn": "নীল-সাদা-লাল"
+      },
+      "b": {
+        "de": "schwarz-gold",
+        "en": "black-gold",
+        "bn": "কালো-সোনালি"
+      },
+      "c": {
+        "de": "weiß-blau",
+        "en": "white-blue",
+        "bn": "সাদা-নীল"
+      },
+      "d": {
+        "de": "grün-weiß-rot",
+        "en": "green-white-red",
+        "bn": "সবুজ-সাদা-লাল"
+      }
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "id": "BadenWuerttemberg306",
+    "question": {
+      "de": "Wo können Sie sich in Baden-Württemberg über politische Themen informieren?",
+      "en": "Where can you get information about political topics in Baden-Württemberg?",
+      "bn": "বাডেন-ভুর্টেমবর্গে আপনি রাজনৈতিক বিষয়ে তথ্য কোথায় পেতে পারেন?"
+    },
+    "options": {
+      "a": {
+        "de": "beim Ordnungsamt der Gemeinde",
+        "en": "at the local public order office",
+        "bn": "জেলা প্রশাসন অফিসে"
+      },
+      "b": {
+        "de": "bei der Verbraucherzentrale",
+        "en": "at the consumer advice center",
+        "bn": "ভোক্তা সেবা কেন্দ্রে"
+      },
+      "c": {
+        "de": "bei der Landeszentrale für politische Bildung",
+        "en": "at the State Center for Political Education",
+        "bn": "রাজ্য রাজনৈতিক শিক্ষা কেন্দ্রে"
+      },
+      "d": {
+        "de": "bei den Kirchen",
+        "en": "at the churches",
+        "bn": "গির্জায়"
+      }
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "id": "BadenWuerttemberg307",
+    "question": {
+      "de": "Die Landeshauptstadt von Baden-Württemberg heißt ...",
+      "en": "The capital of Baden-Württemberg is ...",
+      "bn": "বাডেন-ভুর্টেমবর্গের রাজধানী হলো ..."
+    },
+    "options": {
+      "a": {
+        "de": "Heidelberg",
+        "en": "Heidelberg",
+        "bn": "হাইডেলবার্গ"
+      },
+      "b": {
+        "de": "Stuttgart",
+        "en": "Stuttgart",
+        "bn": "স্টুটগার্ট"
+      },
+      "c": {
+        "de": "Karlsruhe",
+        "en": "Karlsruhe",
+        "bn": "কার্লসরুহে"
+      },
+      "d": {
+        "de": "Mannheim",
+        "en": "Mannheim",
+        "bn": "মানহেইম"
+      }
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "id": "BadenWuerttemberg308",
+    "question": {
+      "de": "Welches Bundesland ist Baden-Württemberg?",
+      "en": "Which federal state is Baden-Württemberg?",
+      "bn": "নিচের কোনটি বাডেন-ভুর্টেমবর্গ রাজ্য?"
+    },
+    "options": {
+      "a": {
+        "de": "1",
+        "en": "1",
+        "bn": "১"
+      },
+      "b": {
+        "de": "2",
+        "en": "2",
+        "bn": "২"
+      },
+      "c": {
+        "de": "3",
+        "en": "3",
+        "bn": "৩"
+      },
+      "d": {
+        "de": "4",
+        "en": "4",
+        "bn": "৪"
+      }
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "id": "BadenWuerttemberg309",
+    "question": {
+      "de": "Wie nennt man die Regierungschefin/den Regierungschef in Baden-Württemberg?",
+      "en": "What is the title of the head of government in Baden-Württemberg?",
+      "bn": "বাডেন-ভুর্টেমবর্গে সরকারের প্রধানের পদবী কী?"
+    },
+    "options": {
+      "a": {
+        "de": "Erste Ministerin/Erster Minister",
+        "en": "First Minister",
+        "bn": "প্রথম মন্ত্রী"
+      },
+      "b": {
+        "de": "Premierministerin/Premierminister",
+        "en": "Prime Minister",
+        "bn": "প্রধানমন্ত্রী"
+      },
+      "c": {
+        "de": "Bürgermeisterin/Bürgermeister",
+        "en": "Mayor",
+        "bn": "মেয়র"
+      },
+      "d": {
+        "de": "Ministerpräsidentin/Ministerpräsident",
+        "en": "Minister President",
+        "bn": "মন্ত্রীসভা সভাপতি"
+      }
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "id": "BadenWuerttemberg310",
+    "question": {
+      "de": "Welche Ministerin/welchen Minister hat Baden-Württemberg nicht?",
+      "en": "Which minister does Baden-Württemberg not have?",
+      "bn": "বাডেন-ভুর্টেমবর্গে নিচের কোন মন্ত্রিত্ব নেই?"
+    },
+    "options": {
+      "a": {
+        "de": "Finanzministerin/Finanzminister",
+        "en": "Finance Minister",
+        "bn": "অর্থমন্ত্রী"
+      },
+      "b": {
+        "de": "Justizministerin/Justizminister",
+        "en": "Justice Minister",
+        "bn": "বিচারমন্ত্রী"
+      },
+      "c": {
+        "de": "Innenministerin/Innenminister",
+        "en": "Interior Minister",
+        "bn": "স্বরাষ্ট্র মন্ত্রী"
+      },
+      "d": {
+        "de": "Außenministerin/Außenminister",
+        "en": "Foreign Minister",
+        "bn": "পররাষ্ট্র মন্ত্রী"
+      }
+    },
+    "correctAnswer": "d"
+  }
+]

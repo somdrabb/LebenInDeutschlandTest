@@ -1,0 +1,152 @@
+[
+  {
+    "id": "MecklenburgVorpommern371",
+    "question": {
+      "de": "Welches Wappen gehört zum Bundesland Mecklenburg-Vorpommern?",
+      "en": "Which coat of arms belongs to the state of Mecklenburg-Vorpommern?",
+      "bn": "মেকলেনবুর্গ-ফোরপোমার্ন রাজ্যের কোট অব আর্মস কোনটি?"
+    },
+    "options": {
+      "a": { "de": "Bild 1", "en": "Image 1", "bn": "ছবি ১" },
+      "b": { "de": "Bild 2", "en": "Image 2", "bn": "ছবি ২" },
+      "c": { "de": "Bild 3", "en": "Image 3", "bn": "ছবি ৩" },
+      "d": { "de": "Bild 4", "en": "Image 4", "bn": "ছবি ৪" }
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "id": "MecklenburgVorpommern372",
+    "question": {
+      "de": "Welches ist ein Landkreis in Mecklenburg-Vorpommern?",
+      "en": "Which is a district in Mecklenburg-Vorpommern?",
+      "bn": "মেকলেনবুর্গ-ফোরপোমার্ন রাজ্যের একটি জেলা কোনটি?"
+    },
+    "options": {
+      "a": { "de": "Prignitz", "en": "Prignitz", "bn": "প্রিগনিট্‌জ" },
+      "b": { "de": "Mecklenburgische Seenplatte", "en": "Mecklenburg Lake District", "bn": "মেকলেনবুর্গ হ্রদ অঞ্চল" },
+      "c": { "de": "Vogtlandkreis", "en": "Vogtland district", "bn": "ভগ্টল্যান্ড জেলা" },
+      "d": { "de": "Rhein-Sieg-Kreis", "en": "Rhein-Sieg district", "bn": "রাইন-সিগ জেলা" }
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "id": "MecklenburgVorpommern373",
+    "question": {
+      "de": "Für wie viele Jahre wird der Landtag in Mecklenburg-Vorpommern gewählt?",
+      "en": "For how many years is the state parliament in Mecklenburg-Vorpommern elected?",
+      "bn": "মেকলেনবুর্গ-ফোরপোমার্ন রাজ্যে ল্যান্ডটাগ কত বছরের জন্য নির্বাচিত হয়?"
+    },
+    "options": {
+      "a": { "de": "3", "en": "3", "bn": "৩" },
+      "b": { "de": "4", "en": "4", "bn": "৪" },
+      "c": { "de": "5", "en": "5", "bn": "৫" },
+      "d": { "de": "6", "en": "6", "bn": "৬" }
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "id": "MecklenburgVorpommern374",
+    "question": {
+      "de": "Ab welchem Alter darf man in Mecklenburg-Vorpommern bei Kommunalwahlen wählen?",
+      "en": "From what age can you vote in local elections in Mecklenburg-Vorpommern?",
+      "bn": "মেকলেনবুর্গ-ফোরপোমার্ন-এ স্থানীয় নির্বাচনে ভোট দেওয়ার জন্য ন্যূনতম বয়স কত?"
+    },
+    "options": {
+      "a": { "de": "14", "en": "14", "bn": "১৪" },
+      "b": { "de": "16", "en": "16", "bn": "১৬" },
+      "c": { "de": "18", "en": "18", "bn": "১৮" },
+      "d": { "de": "20", "en": "20", "bn": "২০" }
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "id": "MecklenburgVorpommern375",
+    "question": {
+      "de": "Welche Farben hat die Landesflagge von Mecklenburg-Vorpommern?",
+      "en": "What are the colors of the state flag of Mecklenburg-Vorpommern?",
+      "bn": "মেকলেনবুর্গ-ফোরপোমার্ন-এর রাজ্য পতাকার রং কী কী?"
+    },
+    "options": {
+      "a": { "de": "schwarz-rot-gold", "en": "black-red-gold", "bn": "কালো-লাল-সোনালি" },
+      "b": { "de": "blau-weiß-gelb-rot", "en": "blue-white-yellow-red", "bn": "নীল-সাদা-হলুদ-লাল" },
+      "c": { "de": "grün-weiß-rot", "en": "green-white-red", "bn": "সবুজ-সাদা-লাল" },
+      "d": { "de": "schwarz-gelb", "en": "black-yellow", "bn": "কালো-হলুদ" }
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "id": "MecklenburgVorpommern376",
+    "question": {
+      "de": "Wo können Sie sich in Mecklenburg-Vorpommern über politische Themen informieren?",
+      "en": "Where can you get information on political topics in Mecklenburg-Vorpommern?",
+      "bn": "মেকলেনবুর্গ-ফোরপোমার্ন-এ আপনি কোথায় রাজনৈতিক বিষয় সম্পর্কে তথ্য পেতে পারেন?"
+    },
+    "options": {
+      "a": { "de": "bei der Landeszentrale für politische Bildung", "en": "at the State Center for Civic Education", "bn": "রাজনৈতিক শিক্ষার জন্য রাজ্য কেন্দ্র" },
+      "b": { "de": "bei den Kirchen", "en": "at the churches", "bn": "চার্চে" },
+      "c": { "de": "beim Ordnungsamt der Gemeinde", "en": "at the municipal order office", "bn": "জেলার প্রশাসনিক দপ্তরে" },
+      "d": { "de": "bei der Verbraucherzentrale", "en": "at the consumer center", "bn": "ভোক্তা কেন্দ্রে" }
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "id": "MecklenburgVorpommern377",
+    "question": {
+      "de": "Die Landeshauptstadt von Mecklenburg-Vorpommern heißt ...",
+      "en": "The state capital of Mecklenburg-Vorpommern is ...",
+      "bn": "মেকলেনবুর্গ-ফোরপোমার্ন-এর রাজ্য রাজধানীর নাম কী?"
+    },
+    "options": {
+      "a": { "de": "Greifswald", "en": "Greifswald", "bn": "গ্রাইফসভাল্ড" },
+      "b": { "de": "Schwerin", "en": "Schwerin", "bn": "শভেরিন" },
+      "c": { "de": "Rostock", "en": "Rostock", "bn": "রোস্টক" },
+      "d": { "de": "Wismar", "en": "Wismar", "bn": "ভিসমার" }
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "id": "MecklenburgVorpommern378",
+    "question": {
+      "de": "Welches Bundesland ist Mecklenburg-Vorpommern?",
+      "en": "Which federal state is Mecklenburg-Vorpommern?",
+      "bn": "মেকলেনবুর্গ-ফোরপোমার্ন কোন ফেডারেল রাজ্য?"
+    },
+    "options": {
+      "a": { "de": "1", "en": "1", "bn": "১" },
+      "b": { "de": "2", "en": "2", "bn": "২" },
+      "c": { "de": "3", "en": "3", "bn": "৩" },
+      "d": { "de": "4", "en": "4", "bn": "৪" }
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "id": "MecklenburgVorpommern379",
+    "question": {
+      "de": "Wie nennt man die Regierungschefin/den Regierungschef in Mecklenburg-Vorpommern?",
+      "en": "What is the title of the head of government in Mecklenburg-Vorpommern?",
+      "bn": "মেকলেনবুর্গ-ফোরপোমার্ন-এর সরকারপ্রধানকে কী বলা হয়?"
+    },
+    "options": {
+      "a": { "de": "Erste Ministerin/Erster Minister", "en": "First Minister", "bn": "প্রথম মন্ত্রী" },
+      "b": { "de": "Premierministerin/Premierminister", "en": "Prime Minister", "bn": "প্রধানমন্ত্রী" },
+      "c": { "de": "Bürgermeisterin/Bürgermeister", "en": "Mayor", "bn": "মেয়র" },
+      "d": { "de": "Ministerpräsidentin/Ministerpräsident", "en": "Minister President", "bn": "মিনিস্টার প্রেসিডেন্ট" }
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "id": "MecklenburgVorpommern380",
+    "question": {
+      "de": "Welche Ministerin/welchen Minister hat Mecklenburg-Vorpommern nicht?",
+      "en": "Which minister does Mecklenburg-Vorpommern not have?",
+      "bn": "মেকলেনবুর্গ-ফোরপোমার্ন-এ কোন মন্ত্রী নেই?"
+    },
+    "options": {
+      "a": { "de": "Justizministerin/Justizminister", "en": "Minister of Justice", "bn": "ন্যায়মন্ত্রী" },
+      "b": { "de": "Außenministerin/Außenminister", "en": "Foreign Minister", "bn": "পররাষ্ট্রমন্ত্রী" },
+      "c": { "de": "Finanzministerin/Finanzminister", "en": "Finance Minister", "bn": "অর্থমন্ত্রী" },
+      "d": { "de": "Innenministerin/Innenminister", "en": "Interior Minister", "bn": "স্বরাষ্ট্রমন্ত্রী" }
+    },
+    "correctAnswer": "b"
+  }
+]

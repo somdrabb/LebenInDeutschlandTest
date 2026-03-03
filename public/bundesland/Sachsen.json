@@ -1,0 +1,170 @@
+[
+  {
+    "id": "Sachsen421",
+    "question": {
+      "de": "Welches Wappen gehört zum Freistaat Sachsen?",
+      "en": "Which coat of arms belongs to the Free State of Saxony?",
+      "bn": "কোনটি স্যাক্সনির প্রতীক?"
+    },
+    "image": "sachsen_wappen.png",
+    "options": {
+      "a": { "de": "Bild 1", "en": "Image 1", "bn": "ছবি ১" },
+      "b": { "de": "Bild 2", "en": "Image 2", "bn": "ছবি ২" },
+      "c": { "de": "Bild 3", "en": "Image 3", "bn": "ছবি ৩" },
+      "d": { "de": "Bild 4", "en": "Image 4", "bn": "ছবি ৪" }
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "id": "Sachsen422",
+    "question": {
+      "de": "Welches ist ein Landkreis in Sachsen?",
+      "en": "Which is a district in Saxony?",
+      "bn": "নিম্নের কোনটি স্যাক্সনির একটি জেলা?"
+    },
+    "options": {
+      "a": { "de": "Vogtlandkreis", "en": "Vogtlandkreis", "bn": "ফগ্টল্যান্ডক্রাইস" },
+      "b": { "de": "Altötting", "en": "Altötting", "bn": "আল্টোটিং" },
+      "c": { "de": "Uckermark", "en": "Uckermark", "bn": "উকারমার্ক" },
+      "d": { "de": "Nordfriesland", "en": "Nordfriesland", "bn": "নর্ডফ্রিসল্যান্ড" }
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "id": "Sachsen423",
+    "question": {
+      "de": "Für wie viele Jahre wird der Landtag in Sachsen gewählt?",
+      "en": "For how many years is the state parliament in Saxony elected?",
+      "bn": "স্যাক্সনিতে কত বছরের জন্য ল্যান্ডট্যাগ নির্বাচিত হয়?"
+    },
+    "options": {
+      "a": { "de": "3", "en": "3", "bn": "৩" },
+      "b": { "de": "4", "en": "4", "bn": "৪" },
+      "c": { "de": "5", "en": "5", "bn": "৫" },
+      "d": { "de": "6", "en": "6", "bn": "৬" }
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "id": "Sachsen424",
+    "question": {
+      "de": "Ab welchem Alter darf man in Sachsen bei Kommunalwahlen wählen?",
+      "en": "From what age can you vote in local elections in Saxony?",
+      "bn": "স্যাক্সনিতে স্থানীয় নির্বাচনে ভোট দেওয়ার ন্যূনতম বয়স কত?"
+    },
+    "options": {
+      "a": { "de": "14", "en": "14", "bn": "১৪" },
+      "b": { "de": "16", "en": "16", "bn": "১৬" },
+      "c": { "de": "18", "en": "18", "bn": "১৮" },
+      "d": { "de": "20", "en": "20", "bn": "২০" }
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "id": "Sachsen425",
+    "question": {
+      "de": "Welche Farben hat die Landesflagge von Sachsen?",
+      "en": "What are the colors of the Saxony state flag?",
+      "bn": "স্যাক্সনি পতাকার রং কী?"
+    },
+    "options": {
+      "a": { "de": "blau-weiß-rot", "en": "blue-white-red", "bn": "নীল-সাদা-লাল" },
+      "b": { "de": "weiß-grün", "en": "white-green", "bn": "সাদা-সবুজ" },
+      "c": { "de": "grün-weiß-rot", "en": "green-white-red", "bn": "সবুজ-সাদা-লাল" },
+      "d": { "de": "schwarz-gelb", "en": "black-yellow", "bn": "কালো-হলুদ" }
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "id": "Sachsen426",
+    "question": {
+      "de": "Wo können Sie sich in Sachsen über politische Themen informieren?",
+      "en": "Where can you get information about political topics in Saxony?",
+      "bn": "স্যাক্সনিতে আপনি কোথায় রাজনৈতিক বিষয়ে তথ্য পেতে পারেন?"
+    },
+    "options": {
+      "a": {
+        "de": "bei der Landeszentrale für politische Bildung",
+        "en": "at the State Center for Civic Education",
+        "bn": "রাজ্য রাজনৈতিক শিক্ষা কেন্দ্রে"
+      },
+      "b": {
+        "de": "beim Ordnungsamt der Gemeinde",
+        "en": "at the local regulatory office",
+        "bn": "কমিউনিটির অর্ডnungsঅ্যাম্টে"
+      },
+      "c": {
+        "de": "bei den Kirchen",
+        "en": "at the churches",
+        "bn": "গির্জায়"
+      },
+      "d": {
+        "de": "bei der Verbraucherzentrale",
+        "en": "at the consumer center",
+        "bn": "ভোক্তা কেন্দ্রে"
+      }
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "id": "Sachsen427",
+    "question": {
+      "de": "Die Landeshauptstadt von Sachsen heißt ...",
+      "en": "The state capital of Saxony is called ...",
+      "bn": "স্যাক্সনি রাজ্যের রাজধানীর নাম কী?"
+    },
+    "options": {
+      "a": { "de": "Leipzig", "en": "Leipzig", "bn": "লাইপৎসিগ" },
+      "b": { "de": "Dresden", "en": "Dresden", "bn": "ড্রেসডেন" },
+      "c": { "de": "Chemnitz", "en": "Chemnitz", "bn": "কেমনিৎস" },
+      "d": { "de": "Zwickau", "en": "Zwickau", "bn": "জভিকাউ" }
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "id": "Sachsen428",
+    "question": {
+      "de": "Welches Bundesland ist Sachsen?",
+      "en": "Which federal state is Saxony?",
+      "bn": "স্যাক্সনি কোন ফেডারেল রাজ্য?"
+    },
+    "image": "sachsen_map.png",
+    "options": {
+      "a": { "de": "1", "en": "1", "bn": "১" },
+      "b": { "de": "2", "en": "2", "bn": "২" },
+      "c": { "de": "3", "en": "3", "bn": "৩" },
+      "d": { "de": "4", "en": "4", "bn": "৪" }
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "id": "Sachsen429",
+    "question": {
+      "de": "Wie nennt man die Regierungschefin/den Regierungschef in Sachsen?",
+      "en": "What is the title of the head of government in Saxony?",
+      "bn": "স্যাক্সনির সরকারের প্রধানকে কী বলা হয়?"
+    },
+    "options": {
+      "a": { "de": "Erste Ministerin/Erster Minister", "en": "First Minister", "bn": "প্রথম মন্ত্রী" },
+      "b": { "de": "Premierministerin/Premierminister", "en": "Prime Minister", "bn": "প্রধানমন্ত্রী" },
+      "c": { "de": "Bürgermeisterin/Bürgermeister", "en": "Mayor", "bn": "মেয়র" },
+      "d": { "de": "Ministerpräsidentin/Ministerpräsident", "en": "Minister President", "bn": "মন্ত্রীসভা সভাপতি" }
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "id": "Sachsen430",
+    "question": {
+      "de": "Welche Ministerin/welchen Minister hat Sachsen nicht?",
+      "en": "Which minister does Saxony not have?",
+      "bn": "স্যাক্সনির কোন মন্ত্রী নেই?"
+    },
+    "options": {
+      "a": { "de": "Justizministerin/Justizminister", "en": "Justice Minister", "bn": "বিচারমন্ত্রী" },
+      "b": { "de": "Außenministerin/Außenminister", "en": "Foreign Minister", "bn": "পররাষ্ট্র মন্ত্রী" },
+      "c": { "de": "Finanzministerin/Finanzminister", "en": "Finance Minister", "bn": "অর্থমন্ত্রী" },
+      "d": { "de": "Innenministerin/Innenminister", "en": "Interior Minister", "bn": "স্বরাষ্ট্র মন্ত্রী" }
+    },
+    "correctAnswer": "b"
+  }
+]

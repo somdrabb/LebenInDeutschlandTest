@@ -1,0 +1,154 @@
+[
+  {
+    "id": "Hessen361",
+    "question": {
+      "de": "Welches Wappen gehört zum Bundesland Hessen?",
+      "en": "Which coat of arms belongs to the state of Hesse?",
+      "bn": "হেসেন রাজ্যের কোট অব আর্মস কোনটি?"
+    },
+    "image": "question1_hessen_wappen.png",
+    "options": {
+      "a": { "de": "Bild 1", "en": "Image 1", "bn": "ছবি ১" },
+      "b": { "de": "Bild 2", "en": "Image 2", "bn": "ছবি ২" },
+      "c": { "de": "Bild 3", "en": "Image 3", "bn": "ছবি ৩" },
+      "d": { "de": "Bild 4", "en": "Image 4", "bn": "ছবি ৪" }
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "id": "Hessen362",
+    "question": {
+      "de": "Welches ist ein Landkreis in Hessen?",
+      "en": "Which is a district in Hesse?",
+      "bn": "হেসেন-এর একটি জেলা কোনটি?"
+    },
+    "options": {
+      "a": { "de": "Ammerland", "en": "Ammerland", "bn": "আমারল্যান্ড" },
+      "b": { "de": "Altötting", "en": "Altötting", "bn": "আল্টয়টিং" },
+      "c": { "de": "Prignitz", "en": "Prignitz", "bn": "প্রিগনিটজ" },
+      "d": { "de": "Main-Taunus-Kreis", "en": "Main-Taunus district", "bn": "মাইন-টাউনুস-ক্রাইস" }
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "id": "Hessen363",
+    "question": {
+      "de": "Für wie viele Jahre wird der Landtag in Hessen gewählt?",
+      "en": "For how many years is the state parliament in Hesse elected?",
+      "bn": "হেসেন রাজ্য সংসদ কত বছরের জন্য নির্বাচিত হয়?"
+    },
+    "options": {
+      "a": { "de": "3", "en": "3", "bn": "৩" },
+      "b": { "de": "4", "en": "4", "bn": "৪" },
+      "c": { "de": "5", "en": "5", "bn": "৫" },
+      "d": { "de": "6", "en": "6", "bn": "৬" }
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "id": "Hessen364",
+    "question": {
+      "de": "Ab welchem Alter darf man in Hessen bei Kommunalwahlen wählen?",
+      "en": "From what age can one vote in local elections in Hesse?",
+      "bn": "হেসেন-এ স্থানীয় নির্বাচনে ভোট দিতে হলে বয়স কত?"
+    },
+    "options": {
+      "a": { "de": "14", "en": "14", "bn": "১৪" },
+      "b": { "de": "16", "en": "16", "bn": "১৬" },
+      "c": { "de": "18", "en": "18", "bn": "১৮" },
+      "d": { "de": "20", "en": "20", "bn": "২০" }
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "id": "Hessen365",
+    "question": {
+      "de": "Welche Farben hat die Landesflagge von Hessen?",
+      "en": "What are the colors of the state flag of Hesse?",
+      "bn": "হেসেনের রাজ্য পতাকার রঙ কী?"
+    },
+    "options": {
+      "a": { "de": "blau-weiß-rot", "en": "blue-white-red", "bn": "নীল-সাদা-লাল" },
+      "b": { "de": "rot-weiß", "en": "red-white", "bn": "লাল-সাদা" },
+      "c": { "de": "schwarz-gold", "en": "black-gold", "bn": "কালো-সোনালি" },
+      "d": { "de": "grün-weiß-rot", "en": "green-white-red", "bn": "সবুজ-সাদা-লাল" }
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "id": "Hessen366",
+    "question": {
+      "de": "Wo können Sie sich in Hessen über politische Themen informieren?",
+      "en": "Where can you get information about political topics in Hesse?",
+      "bn": "আপনি হেসেন-এ রাজনৈতিক বিষয়ে কোথায় তথ্য পেতে পারেন?"
+    },
+    "options": {
+      "a": { "de": "bei der Landeszentrale für politische Bildung", "en": "at the State Center for Political Education", "bn": "রাজ্য রাজনৈতিক শিক্ষা কেন্দ্রে" },
+      "b": { "de": "bei der Verbraucherzentrale", "en": "at the consumer advice center", "bn": "ভোক্তা পরামর্শ কেন্দ্রে" },
+      "c": { "de": "beim Ordnungsamt der Gemeinde", "en": "at the municipal public order office", "bn": "জেলা প্রশাসন অফিসে" },
+      "d": { "de": "bei den Kirchen", "en": "at the churches", "bn": "গির্জায়" }
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "id": "Hessen367",
+    "question": {
+      "de": "Die Landeshauptstadt von Hessen heißt ...",
+      "en": "The state capital of Hesse is ...",
+      "bn": "হেসেনের রাজধানীর নাম কী?"
+    },
+    "options": {
+      "a": { "de": "Kassel", "en": "Kassel", "bn": "কাসেল" },
+      "b": { "de": "Darmstadt", "en": "Darmstadt", "bn": "ডার্মস্টাড" },
+      "c": { "de": "Frankfurt", "en": "Frankfurt", "bn": "ফ্র্যাঙ্কফুর্ট" },
+      "d": { "de": "Wiesbaden", "en": "Wiesbaden", "bn": "ভিসবাদেন" }
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "id": "Hessen368",
+    "question": {
+      "de": "Welches Bundesland ist Hessen?",
+      "en": "Which federal state is Hesse?",
+      "bn": "হেসেন কোন ফেডারেল রাজ্য?"
+    },
+    "image": "question8_hessen_map.jpg",
+    "options": {
+      "a": { "de": "1", "en": "1", "bn": "১" },
+      "b": { "de": "2", "en": "2", "bn": "২" },
+      "c": { "de": "3", "en": "3", "bn": "৩" },
+      "d": { "de": "4", "en": "4", "bn": "৪" }
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "id": "Hessen369",
+    "question": {
+      "de": "Wie nennt man die Regierungschefin/den Regierungschef in Hessen?",
+      "en": "What is the title of the head of government in Hesse?",
+      "bn": "হেসেন-এ সরকারের প্রধানকে কী বলা হয়?"
+    },
+    "options": {
+      "a": { "de": "Erste Ministerin/Erster Minister", "en": "First Minister", "bn": "প্রথম মন্ত্রী" },
+      "b": { "de": "Premierministerin/Premierminister", "en": "Prime Minister", "bn": "প্রধানমন্ত্রী" },
+      "c": { "de": "Bürgermeisterin/Bürgermeister", "en": "Mayor", "bn": "মেয়র" },
+      "d": { "de": "Ministerpräsidentin/Ministerpräsident", "en": "Minister President", "bn": "মন্ত্রীসভা সভাপতি" }
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "id": "Hessen370",
+    "question": {
+      "de": "Welche Ministerin/welchen Minister hat Hessen nicht?",
+      "en": "Which minister does Hesse not have?",
+      "bn": "হেসেন-এর কোন মন্ত্রী নেই?"
+    },
+    "options": {
+      "a": { "de": "Justizministerin/Justizminister", "en": "Minister of Justice", "bn": "বিচারমন্ত্রী" },
+      "b": { "de": "Außenministerin/Außenminister", "en": "Foreign Minister", "bn": "পররাষ্ট্রমন্ত্রী" },
+      "c": { "de": "Finanzministerin/Finanzminister", "en": "Finance Minister", "bn": "অর্থমন্ত্রী" },
+      "d": { "de": "Innenministerin/Innenminister", "en": "Interior Minister", "bn": "স্বরাষ্ট্র মন্ত্রী" }
+    },
+    "correctAnswer": "b"
+  }
+]

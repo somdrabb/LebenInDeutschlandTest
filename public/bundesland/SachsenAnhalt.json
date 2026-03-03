@@ -1,0 +1,166 @@
+[
+  {
+    "id": "SachsenAnhalt431",
+    "question": {
+      "de": "Welches Wappen gehört zum Bundesland Sachsen-Anhalt?",
+      "en": "Which coat of arms belongs to the federal state of Saxony-Anhalt?",
+      "bn": "কোনটি স্যাক্সনি-আনহাল্ট রাজ্যের প্রতীক?"
+    },
+    "image": "sachsenanhalt_wappen.png",
+    "options": {
+      "a": { "de": "Bild 1", "en": "Image 1", "bn": "ছবি ১" },
+      "b": { "de": "Bild 2", "en": "Image 2", "bn": "ছবি ২" },
+      "c": { "de": "Bild 3", "en": "Image 3", "bn": "ছবি ৩" },
+      "d": { "de": "Bild 4", "en": "Image 4", "bn": "ছবি ৪" }
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "id": "SachsenAnhalt432",
+    "question": {
+      "de": "Welches ist ein Landkreis in Sachsen-Anhalt?",
+      "en": "Which is a district in Saxony-Anhalt?",
+      "bn": "নিম্নের কোনটি স্যাক্সনি-আনহাল্টের একটি জেলা?"
+    },
+    "options": {
+      "a": { "de": "Ammerland", "en": "Ammerland", "bn": "আমারল্যান্ড" },
+      "b": { "de": "Altötting", "en": "Altötting", "bn": "আল্টোটিং" },
+      "c": { "de": "Uckermark", "en": "Uckermark", "bn": "উকারমার্ক" },
+      "d": { "de": "Börde", "en": "Börde", "bn": "বর্দে" }
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "id": "SachsenAnhalt433",
+    "question": {
+      "de": "Für wie viele Jahre wird der Landtag in Sachsen-Anhalt gewählt?",
+      "en": "For how many years is the state parliament in Saxony-Anhalt elected?",
+      "bn": "স্যাক্সনি-আনহাল্টে কত বছরের জন্য ল্যান্ডট্যাগ নির্বাচিত হয়?"
+    },
+    "options": {
+      "a": { "de": "3", "en": "3", "bn": "৩" },
+      "b": { "de": "4", "en": "4", "bn": "৪" },
+      "c": { "de": "5", "en": "5", "bn": "৫" },
+      "d": { "de": "6", "en": "6", "bn": "৬" }
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "id": "SachsenAnhalt434",
+    "question": {
+      "de": "Ab welchem Alter darf man in Sachsen-Anhalt bei Kommunalwahlen wählen?",
+      "en": "From what age can you vote in local elections in Saxony-Anhalt?",
+      "bn": "স্যাক্সনি-আনহাল্টে স্থানীয় নির্বাচনে ভোট দেওয়ার ন্যূনতম বয়স কত?"
+    },
+    "options": {
+      "a": { "de": "14", "en": "14", "bn": "১৪" },
+      "b": { "de": "16", "en": "16", "bn": "১৬" },
+      "c": { "de": "18", "en": "18", "bn": "১৮" },
+      "d": { "de": "20", "en": "20", "bn": "২০" }
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "id": "SachsenAnhalt435",
+    "question": {
+      "de": "Welche Farben hat die Landesflagge von Sachsen-Anhalt?",
+      "en": "What are the colors of the Saxony-Anhalt state flag?",
+      "bn": "স্যাক্সনি-আনহাল্ট পতাকার রং কী?"
+    },
+    "options": {
+      "a": { "de": "blau-weiß-rot", "en": "blue-white-red", "bn": "নীল-সাদা-লাল" },
+      "b": { "de": "gelb-schwarz", "en": "yellow-black", "bn": "হলুদ-কালো" },
+      "c": { "de": "grün-weiß-রেড", "en": "green-white-red", "bn": "সবুজ-সাদা-লাল" },
+      "d": { "de": "weiß-rot", "en": "white-red", "bn": "সাদা-লাল" }
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "id": "SachsenAnhalt436",
+    "question": {
+      "de": "Wo können Sie sich in Sachsen-Anhalt über politische Themen informieren?",
+      "en": "Where can you get information about political topics in Saxony-Anhalt?",
+      "bn": "স্যাক্সনি-আনহাল্টে আপনি কোথায় রাজনৈতিক বিষয়ে তথ্য পেতে পারেন?"
+    },
+    "options": {
+      "a": { "de": "bei den Kirchen", "en": "at the churches", "bn": "গির্জায়" },
+      "b": {
+        "de": "bei der Landeszentrale für politische Bildung",
+        "en": "at the State Center for Civic Education",
+        "bn": "রাজ্য রাজনৈতিক শিক্ষা কেন্দ্রে"
+      },
+      "c": {
+        "de": "beim Ordnungsamt der Gemeinde",
+        "en": "at the local regulatory office",
+        "bn": "কমিউনিটির অর্ডnungsঅ্যাম্টে"
+      },
+      "d": {
+        "de": "bei der Verbraucherzentrale",
+        "en": "at the consumer center",
+        "bn": "ভোক্তা কেন্দ্রে"
+      }
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "id": "SachsenAnhalt437",
+    "question": {
+      "de": "Die Landeshauptstadt von Sachsen-Anhalt heißt ...",
+      "en": "The state capital of Saxony-Anhalt is called ...",
+      "bn": "স্যাক্সনি-আনহাল্ট রাজ্যের রাজধানীর নাম কী?"
+    },
+    "options": {
+      "a": { "de": "Halle.", "en": "Halle", "bn": "হালে" },
+      "b": { "de": "Dessau.", "en": "Dessau", "bn": "ডেসাউ" },
+      "c": { "de": "Magdeburg.", "en": "Magdeburg", "bn": "মাগডেবার্গ" },
+      "d": { "de": "Wittenberg.", "en": "Wittenberg", "bn": "ভিটেনবার্গ" }
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "id": "SachsenAnhalt438",
+    "question": {
+      "de": "Welches Bundesland ist Sachsen-Anhalt?",
+      "en": "Which federal state is Saxony-Anhalt?",
+      "bn": "স্যাক্সনি-আনহাল্ট কোন ফেডারেল রাজ্য?"
+    },
+    "image": "sachsenanhalt_map.png",
+    "options": {
+      "a": { "de": "1", "en": "1", "bn": "১" },
+      "b": { "de": "2", "en": "2", "bn": "২" },
+      "c": { "de": "3", "en": "3", "bn": "৩" },
+      "d": { "de": "4", "en": "4", "bn": "৪" }
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "id": "SachsenAnhalt439",
+    "question": {
+      "de": "Wie nennt man die Regierungschefin/den Regierungschef in Sachsen-Anhalt?",
+      "en": "What is the title of the head of government in Saxony-Anhalt?",
+      "bn": "স্যাক্সনি-আনহাল্টের সরকারের প্রধানকে কী বলা হয়?"
+    },
+    "options": {
+      "a": { "de": "Erste Ministerin/Erster Minister", "en": "First Minister", "bn": "প্রথম মন্ত্রী" },
+      "b": { "de": "Premierministerin/Premierminister", "en": "Prime Minister", "bn": "প্রধানমন্ত্রী" },
+      "c": { "de": "Bürgermeisterin/Bürgermeister", "en": "Mayor", "bn": "মেয়র" },
+      "d": { "de": "Ministerpräsidentin/Ministerpräsident", "en": "Minister President", "bn": "মন্ত্রীসভা সভাপতি" }
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "id": "SachsenAnhalt440",
+    "question": {
+      "de": "Welche Ministerin/welchen Minister hat Sachsen-Anhalt nicht?",
+      "en": "Which minister does Saxony-Anhalt not have?",
+      "bn": "স্যাক্সনি-আনহাল্টের কোন মন্ত্রী নেই?"
+    },
+    "options": {
+      "a": { "de": "Justizministerin/Justizminister", "en": "Justice Minister", "bn": "বিচারমন্ত্রী" },
+      "b": { "de": "Außenministerin/Außenminister", "en": "Foreign Minister", "bn": "পররাষ্ট্র মন্ত্রী" },
+      "c": { "de": "Finanzministerin/Finanzminister", "en": "Finance Minister", "bn": "অর্থমন্ত্রী" },
+      "d": { "de": "Innenministerin/Innenminister", "en": "Interior Minister", "bn": "স্বরাষ্ট্র মন্ত্রী" }
+    },
+    "correctAnswer": "b"
+  }
+]

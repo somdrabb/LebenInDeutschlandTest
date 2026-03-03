@@ -1,0 +1,154 @@
+[
+  {
+    "id": "Bayern311",
+    "question": {
+      "de": "Welches Wappen gehört zum Freistaat Bayern?",
+      "en": "Which coat of arms belongs to the Free State of Bavaria?",
+      "bn": "বাভারিয়া রাজ্যের প্রতীক নিচের কোনটি?"
+    },
+    "image": "question1_bayern_wappen.png",
+    "options": {
+      "a": { "de": "Bild 1", "en": "Image 1", "bn": "ছবি ১" },
+      "b": { "de": "Bild 2", "en": "Image 2", "bn": "ছবি ২" },
+      "c": { "de": "Bild 3", "en": "Image 3", "bn": "ছবি ৩" },
+      "d": { "de": "Bild 4", "en": "Image 4", "bn": "ছবি ৪" }
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "id": "Bayern312",
+    "question": {
+      "de": "Welches ist ein Landkreis in Bayern?",
+      "en": "Which is a district in Bavaria?",
+      "bn": "বাভারিয়ার একটি জেলা নিচের কোনটি?"
+    },
+    "options": {
+      "a": { "de": "Prignitz", "en": "Prignitz", "bn": "প্রিগনিট্‌জ" },
+      "b": { "de": "Rhein-Sieg-Kreis", "en": "Rhein-Sieg District", "bn": "রাইন-সিগ জেলা" },
+      "c": { "de": "Nordfriesland", "en": "North Frisia", "bn": "উত্তর ফ্রিজল্যান্ড" },
+      "d": { "de": "Altötting", "en": "Altötting", "bn": "আলটয়েটিং" }
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "id": "Bayern313",
+    "question": {
+      "de": "Für wie viele Jahre wird der Landtag in Bayern gewählt?",
+      "en": "For how many years is the state parliament in Bavaria elected?",
+      "bn": "বাভারিয়ার রাজ্য সংসদ কত বছরের জন্য নির্বাচিত হয়?"
+    },
+    "options": {
+      "a": { "de": "3", "en": "3", "bn": "৩" },
+      "b": { "de": "4", "en": "4", "bn": "৪" },
+      "c": { "de": "5", "en": "5", "bn": "৫" },
+      "d": { "de": "6", "en": "6", "bn": "৬" }
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "id": "Bayern314",
+    "question": {
+      "de": "Ab welchem Alter darf man in Bayern bei Kommunalwahlen wählen?",
+      "en": "From what age can one vote in local elections in Bavaria?",
+      "bn": "বাভারিয়াতে স্থানীয় নির্বাচনে ভোট দেওয়া যায় কত বছর থেকে?"
+    },
+    "options": {
+      "a": { "de": "14", "en": "14", "bn": "১৪" },
+      "b": { "de": "16", "en": "16", "bn": "১৬" },
+      "c": { "de": "18", "en": "18", "bn": "১৮" },
+      "d": { "de": "20", "en": "20", "bn": "২০" }
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "id": "Bayern315",
+    "question": {
+      "de": "Welche Farben hat die Landesflagge von Bayern?",
+      "en": "What are the colors of the state flag of Bavaria?",
+      "bn": "বাভারিয়ার পতাকার রং কী কী?"
+    },
+    "options": {
+      "a": { "de": "blau-weiß-rot", "en": "blue-white-red", "bn": "নীল-সাদা-লাল" },
+      "b": { "de": "weiß-blau", "en": "white-blue", "bn": "সাদা-নীল" },
+      "c": { "de": "grün-weiß-rot", "en": "green-white-red", "bn": "সবুজ-সাদা-লাল" },
+      "d": { "de": "schwarz-gelb", "en": "black-yellow", "bn": "কালো-হলুদ" }
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "id": "Bayern316",
+    "question": {
+      "de": "Wo können Sie sich in Bayern über politische Themen informieren?",
+      "en": "Where can you get information about political topics in Bavaria?",
+      "bn": "বাভারিয়াতে আপনি রাজনৈতিক তথ্য কোথা থেকে পেতে পারেন?"
+    },
+    "options": {
+      "a": { "de": "beim Ordnungsamt der Gemeinde", "en": "at the municipal public order office", "bn": "জেলা প্রশাসন অফিসে" },
+      "b": { "de": "bei der Landeszentrale für politische Bildung", "en": "at the State Center for Political Education", "bn": "রাজ্য রাজনৈতিক শিক্ষা কেন্দ্রে" },
+      "c": { "de": "bei der Verbraucherzentrale", "en": "at the consumer advice center", "bn": "ভোক্তা পরামর্শ কেন্দ্রে" },
+      "d": { "de": "bei den Kirchen", "en": "at the churches", "bn": "গির্জায়" }
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "id": "Bayern317",
+    "question": {
+      "de": "Die Landeshauptstadt von Bayern heißt ...",
+      "en": "The capital city of Bavaria is ...",
+      "bn": "বাভারিয়ার রাজধানী হলো ..."
+    },
+    "options": {
+      "a": { "de": "Ingolstadt", "en": "Ingolstadt", "bn": "ইঙ্গোলস্টাড" },
+      "b": { "de": "Regensburg", "en": "Regensburg", "bn": "রেগেনসবার্গ" },
+      "c": { "de": "Nürnberg", "en": "Nuremberg", "bn": "নিউরেমবার্গ" },
+      "d": { "de": "München", "en": "Munich", "bn": "মিউনিখ" }
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "id": "Bayern318",
+    "question": {
+      "de": "Welches Bundesland ist Bayern?",
+      "en": "Which federal state is Bavaria?",
+      "bn": "বাভারিয়া কোন নম্বর ফেডারেল রাজ্য?"
+    },
+    "image": "question8_bayern_map.jpg",
+    "options": {
+      "a": { "de": "1", "en": "1", "bn": "১" },
+      "b": { "de": "2", "en": "2", "bn": "২" },
+      "c": { "de": "3", "en": "3", "bn": "৩" },
+      "d": { "de": "4", "en": "4", "bn": "৪" }
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "id": "Bayern319",
+    "question": {
+      "de": "Wie nennt man die Regierungschefin/den Regierungschef in Bayern?",
+      "en": "What is the title of the head of government in Bavaria?",
+      "bn": "বাভারিয়ার সরকারের প্রধানকে কী বলা হয়?"
+    },
+    "options": {
+      "a": { "de": "Erste Ministerin/Erster Minister", "en": "First Minister", "bn": "প্রথম মন্ত্রী" },
+      "b": { "de": "Premierministerin/Premierminister", "en": "Prime Minister", "bn": "প্রধানমন্ত্রী" },
+      "c": { "de": "Bürgermeisterin/Bürgermeister", "en": "Mayor", "bn": "মেয়র" },
+      "d": { "de": "Ministerpräsidentin/Ministerpräsident", "en": "Minister President", "bn": "মিনিস্টার প্রেসিডেন্ট" }
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "id": "Bayern320",
+    "question": {
+      "de": "Welche Ministerin/welchen Minister hat Bayern nicht?",
+      "en": "Which minister does Bavaria not have?",
+      "bn": "বাভারিয়ার কোন মন্ত্রী নেই?"
+    },
+    "options": {
+      "a": { "de": "Justizministerin/Justizminister", "en": "Justice Minister", "bn": "বিচারমন্ত্রী" },
+      "b": { "de": "Außenministerin/Außenminister", "en": "Foreign Minister", "bn": "পররাষ্ট্র মন্ত্রী" },
+      "c": { "de": "Finanzministerin/Finanzminister", "en": "Finance Minister", "bn": "অর্থমন্ত্রী" },
+      "d": { "de": "Innenministerin/Innenminister", "en": "Interior Minister", "bn": "স্বরাষ্ট্র মন্ত্রী" }
+    },
+    "correctAnswer": "b"
+  }
+]
