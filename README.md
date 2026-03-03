@@ -1,152 +1,279 @@
-# LebiDE - Project Schema
+# 🇩🇪 LebiDE — Leben in Deutschland Test Trainer
 
-This document explains how the project is structured and how the frontend and backend pieces fit together.
+![React](https://img.shields.io/badge/React-18-blue)
+![Firebase](https://img.shields.io/badge/Firebase-Hosting-orange)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Build](https://img.shields.io/badge/build-passing-brightgreen)
+![Questions](https://img.shields.io/badge/questions-460-blue)
 
-## Overview
-LebiDE is a React (Create React App) web app for learning and practicing the “Leben in Deutschland” and “Einbürgerungstest” questions. It is a frontend-heavy project with Firebase services for authentication and data storage, plus EmailJS for contact forms and Firestore for feedback.
+LebiDE is an interactive learning platform for preparing the **Leben in Deutschland** and **Einbürgerungstest** exams. It delivers the complete official question catalog (460 questions) with multilingual support, smart quiz flows, and a Firebase-powered backend.
 
-## Architecture (High Level)
-- Frontend: React + Tailwind + Framer Motion
-- Backend services: Firebase (Auth, Realtime Database, Firestore)
-- Static data: JSON question files in `public/`
-- Hosting: Firebase Hosting (config in `firebase.json`)
+🌐 Built with **React (Create React App), TailwindCSS, Framer Motion, Firebase, and EmailJS**.
 
-## Frontend Structure
-The app is organized into feature and page modules with a single components module export.
+---
+
+## 🚀 Features
+
+- ✅ Full official **460-question catalog** (300 general + 160 Bundesland-specific)
+- 🌍 Multilingual questions (German 🇩🇪, English 🇬🇧, Bengali 🇧🇩)
+- 🧠 Smart quiz modes: learning, mixed exam simulation, wrong answer reviews, unanswered filters
+- 🔐 Firebase Authentication with Google, Facebook, Microsoft, GitHub, email/password, and anonymous providers
+- 📊 Progress tracking persisted in Realtime Database + localStorage helpers
+- 💬 Feedback system backed by Firestore with emoji reactions and admin moderation helpers
+- 📩 Contact form using EmailJS + Google reCAPTCHA for spam protection
+- 📱 Fully responsive mobile-first UI
+- ⚡ Fast SPA experience deployed via Firebase Hosting
+
+---
+
+## 📸 Screenshots
+
+### Home Page
+![Home](public/screenshots/home.png)
+
+### Quiz Interface
+![Quiz](public/screenshots/quiz.png)
+
+### Mixed Test Mode
+![Mixed Test](public/screenshots/mixed-test.png)
+
+### Wrong Answers Review
+![Wrong Answers](public/screenshots/wrong-answers.png)
+
+---
+
+## 🧱 Tech Stack
+
+| Layer            | Technology                    |
+|------------------|-------------------------------|
+| Frontend         | React (Create React App)      |
+| UI               | TailwindCSS + Framer Motion   |
+| Authentication   | Firebase Authentication       |
+| Realtime Sync    | Firebase Realtime Database    |
+| Feedback Storage | Firebase Firestore            |
+| Forms            | EmailJS                       |
+| Spam Protection  | Google reCAPTCHA              |
+| Hosting          | Firebase Hosting              |
+
+---
+
+## 🧭 Architecture & Flow
+
+- **Frontend:** CRA entry point (`src/index.js`) renders `App.js`, which orchestrates the phase-based UI (home, quiz, contact, feedback, wrong answers).
+- **Component module:** `src/components/index.js` exports shared UI widgets (`AuthForm`, `ContactForm`, `FeedbackForm`, `LoginModal`, `ShareCard`, `WrongList`, `Footer`, `LanguageSelector`).
+- **Quiz features:** `features/quiz` houses `LebenInDeutschland.js`, `MixedTest.js`, and `UnansweredQuestions.js`, handling question flow, answer tracking, and review states.
+- **Data:** Static JSON question files live under `public/` (per Bundesland or general) and are fetched at runtime.
+- **Services:** `src/services/firebase.js` bootstraps Firebase apps/providers; `src/services/authHandlers.js` centralizes login flows and `onAuthStateChanged` handling.
+- **Utils:** `src/utils/wrongAnswers.js` and localStorage helpers manage persisted state such as wrong answers and quiz history.
+- **Backend:** Firebase (Auth, Realtime Database, Firestore) synchronizes user progress, feedback, and contact submissions. EmailJS + reCAPTCHA powers the contact workflow.
+
+---
+
+## 📂 Project Structure
 
 ```
 src/
-  App.js                       # App shell + phase-based routing
+  App.js                       # Phase-based routing + UI shell
   index.js                     # React entry
   index.css                    # Tailwind + global styles
 
   pages/
-    HomeSelect.js              # Landing + navigation + main entry UI
+    HomeSelect.js              # Landing, navigation, and quiz launcher
 
   features/
     quiz/
-      LebenInDeutschland.js    # Quiz engine + tabs + UI
+      LebenInDeutschland.js    # Quiz engine + UI
       MixedTest.js             # Mixed test logic
-      UnansweredQuestions.js   # Unanswered questions view
+      UnansweredQuestions.js   # Unanswered question review
 
   components/
-    index.js                   # All UI components in one file
+    index.js                   # Shared components exported together
 
   data/
     bundeslaender.js           # Bundesland metadata
-    languages.js               # Language config
+    languages.js               # Language configuration
 
   services/
-    firebase.js                # Firebase app + providers
-    authHandlers.js            # Auth helpers
+    firebase.js                # Firebase init + providers
+    authHandlers.js            # Auth helper flows
 
   utils/
-    wrongAnswers.js            # LocalStorage helpers for wrong answers
+    wrongAnswers.js            # LocalStorage helpers (wrong answers, quizzes)
+
+public/
+  questions/                   # General question JSON files
+  bundesland/                 # Bundesland-specific JSON files
+  assets/                      # Icons, PDFs, static media
 ```
 
-## Backend / Services
-Firebase is used for authentication and storing user progress/reviews.
+---
 
-- Firebase Auth (providers: Google, Facebook, Microsoft, GitHub, anonymous, email)
-- Firebase Realtime Database (user progress)
-- Firestore (reviews/feedback)
+## ⚙️ Installation
 
-Relevant files:
-- `src/services/firebase.js`
-- `src/services/authHandlers.js`
+Clone the repository:
 
-## Static Assets and Data
-- Question JSON files are in `public/` and loaded via fetch.
-- Bundesland-specific JSON files are in `public/bundesland/`.
-- UI assets (icons, images, PDFs) are in `public/assets/`.
-
-## Runtime Flow (App Phases)
-`App.js` controls the phase-based UI:
-- `home` -> `HomeSelect` page
-- `contact` -> `ContactForm`
-- `feedback` -> `FeedbackForm`
-- `wrong-list` -> `WrongList`
-
-The quiz UI is handled by `LebenInDeutschland` in the `features/quiz` folder.
-
-## Data Flow (Key Flows)
-
-### Auth
-- User signs in via `LoginModal` and `AuthForm`.
-- `authHandlers.js` triggers Firebase Auth flows.
-- `App.js` listens to auth changes via `onAuthStateChanged`.
-
-### Quiz
-- Questions are fetched from static JSON in `public/`.
-- Quiz state is stored in component state and localStorage.
-- Wrong answers are persisted via `src/utils/wrongAnswers.js`.
-
-### Feedback
-- Reviews stored in Firestore (`reviews` collection).
-- `FeedbackForm` reads/writes reviews via Firestore API.
-
-### Contact
-- `ContactForm` uses EmailJS to send messages.
-- Uses reCAPTCHA for spam protection.
-
-## Local Storage Keys
-- `wrongAnswers`: array of question IDs
-- `quiz_history`: quiz history
-- `mixed_test_results`: mixed test results
-- `selectedBundesland`: active Bundesland file
-- `lebide_ui_state`: UI state cache
-
-## Firebase Hosting
-`firebase.json` config:
-- Uses `build` as public directory
-- Rewrites all routes to `index.html`
-
-## Scripts
-```sh
-npm start       # run dev server
-npm run build   # production build
-npm run build-deploy  # build + firebase deploy
+```bash
+git clone https://github.com/somdrabb/LebenInDeutschlandTest.git
+cd LebenInDeutschlandTest
 ```
 
-## Notes / Setup
-- Install dependencies: `npm install`
-- The current React setup is Create React App.
-- Firebase keys are in `src/services/firebase.js` (public config).
+Install dependencies:
 
-## Getting Started
+```bash
+npm install
+```
 
-### Setup steps
-1. `cp .env.example .env` and fill in each value with the credentials for your Firebase, EmailJS, and reCAPTCHA accounts.
-2. `npm ci` to install locked dependencies from `package-lock.json`.
-3. `npm start` to run the dev server and `npm run build` to verify a production bundle.
-4. `npm run build-deploy` (after connecting to Firebase) when you are ready to build and host the project.
+Start development server:
 
-### Environment variables
-- Keep your secrets in `.env` (which is ignored via `.gitignore`); the committed `.env.example` lists every supported key.
-- Replace all `REACT_APP_...` placeholders with live values: Firebase config, EmailJS service/template/public keys, and the reCAPTCHA site key.
-- Never commit `.env`; rotate the values whenever there is a suspected leak.
+```bash
+npm start
+```
 
-### Firebase hosting deploy
-1. Authenticate: `firebase login`.
-2. Build + deploy: `npm run build-deploy` (it runs `npm run build` and then `firebase deploy --only hosting`).
-3. The Firebase config in `firebase.json` rewrites all routes to `build/index.html`, so the SPA is handled client-side.
+Build production bundle:
 
-## Features
-- Phase-driven React UI (home, quiz, contact, feedback phases) with Tailwind/Twind styling.
-- Firebase Auth providers (Google, Facebook, Microsoft, GitHub, anonymous, email/password) plus Realtime Database/Firestore helpers.
-- EmailJS + reCAPTCHA contact form with client-side file uploads, templates, and user-friendly feedback status.
-- Feedback list with Firestore persistence, emoji reactions, and admin moderation helpers.
-- LocalStorage helpers for quiz history, wrong answers, and UI state caching (see `src/utils`).
+```bash
+npm run build
+```
 
-## Component Module (Single File)
-All UI components are combined in `src/components/index.js` and exported as named exports:
-- `AuthForm`
-- `ContactForm`
-- `FeedbackForm`
-- `Footer`
-- `LanguageSelector`
-- `LoginModal`
-- `ShareCard`
-- `WrongList`
+Deploy-ready build (runs build + Firebase deploy):
 
-If you want these split again later, we can re-extract them into separate files.
+```bash
+npm run build-deploy
+```
+
+---
+
+## 🔑 Environment Variables
+
+Create a `.env` file with the Firebase, EmailJS, and reCAPTCHA keys listed below. Do **not** commit `.env`.
+
+```
+REACT_APP_FIREBASE_API_KEY=
+REACT_APP_FIREBASE_AUTH_DOMAIN=
+REACT_APP_FIREBASE_PROJECT_ID=
+
+REACT_APP_EMAILJS_SERVICE_ID=
+REACT_APP_EMAILJS_TEMPLATE_CONTACT=
+REACT_APP_EMAILJS_TEMPLATE_REPLY=
+REACT_APP_EMAILJS_PUBLIC_KEY=
+
+REACT_APP_RECAPTCHA_SITE_KEY=
+```
+
+See `.env.example` for full context.
+
+---
+
+## 🔥 Firebase Hosting
+
+Login to Firebase:
+
+```bash
+firebase login
+```
+
+Deploy the SPA:
+
+```bash
+npm run build
+firebase deploy
+```
+
+The `firebase.json` config rewrites all routes to `build/index.html` so the client handles routing.
+
+---
+
+## 📊 Quiz Data
+
+The project bundles the **complete official question dataset**.
+
+| Category             | Questions |
+|----------------------|-----------|
+| General questions    | 300       |
+| Bundesland questions | 160       |
+| **Total**           | **460**   |
+
+JSON files live under `public/` and `public/bundesland/` and are loaded via fetch in the quiz components.
+
+---
+
+## 🔐 Authentication Flow
+
+1. User opens the login modal.
+2. Firebase provider login executes via `authHandlers.js`.
+3. `onAuthStateChanged` in `App.js` updates the UI and persists session state.
+
+Supported providers: Google, Facebook, Microsoft, GitHub, email/password, anonymous.
+
+---
+
+## 💾 Local Storage Keys
+
+| Key                | Purpose                         |
+|--------------------|---------------------------------|
+| `wrongAnswers`       | Tracks incorrect questions       |
+| `quiz_history`       | Captures quiz attempts           |
+| `mixed_test_results` | Stores exam simulation outcomes  |
+| `selectedBundesland` | Records the active Bundesland    |
+| `lebide_ui_state`    | UI state cache                   |
+
+---
+
+## 🛠 Scripts
+
+```
+npm start
+npm run build
+npm run build-deploy
+```
+
+---
+
+## 🤝 Contributing
+
+Contributions welcome!
+
+1. Fork the repository.
+2. Create a feature branch.
+3. Submit a Pull Request.
+
+Please include changelog notes for any architectural updates.
+
+---
+
+## 🌐 Live Demo
+
+🚀 [https://lebide.web.app](https://lebide.web.app)
+
+---
+
+## 📊 Project Stats
+
+- Total Questions: **460**
+- Bundesländer Covered: **16**
+- Languages Supported: **3**
+- Quiz Modes: **4**
+- Authentication Providers: **6**
+
+---
+
+## 🧠 Quiz Modes
+
+| Mode             | Description                          |
+|------------------|--------------------------------------|
+| Learning Mode    | Practice questions by topic           |
+| Mixed Test       | Simulates the real exam               |
+| Wrong Answers    | Review mistakes and explanations      |
+| Unanswered       | Continue unfinished question sets     |
+
+---
+
+## 📜 License
+
+MIT License
+
+---
+
+## 👨‍💻 Author
+
+Created by **Somdrabb** | Project: **LebiDE — Kompetenz für Integration**
