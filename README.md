@@ -1,8 +1,13 @@
 # 🇩🇪 LebiDE — Leben in Deutschland Test Trainer
 
-Interactive learning platform to prepare for the official German citizenship test (Leben in Deutschland & Einbürgerungstest).
+![React](https://img.shields.io/badge/React-18-blue) ![Firebase](https://img.shields.io/badge/Firebase-Hosting-orange) ![License](https://img.shields.io/badge/License-MIT-green) ![Build](https://img.shields.io/badge/build-passing-brightgreen) ![Questions](https://img.shields.io/badge/questions-460-blue)
 
-Practice all 300 official BAMF questions, train weak areas, and simulate the real exam using smart modes, Firebase persistence, and a modern Tailwind + Framer Motion UI.
+Interactive learning platform to prepare for the official German citizenship tests:
+
+- Leben in Deutschland
+- Einbürgerungstest
+
+Practice all 300 official BAMF questions, train weak areas, and simulate the real exam using smart quiz modes, Firebase persistence, and a modern UI built with React, TailwindCSS, and Framer Motion.
 
 🚀 Live Demo
 
@@ -12,20 +17,28 @@ https://lebide.web.app
 
 ## ✨ Features
 
-✔ All 300 official questions
-✔ Bundesland-specific questions
-✔ Mixed exam simulation (33 questions)
-✔ Wrong answers trainer
-✔ Open questions practice mode
-✔ Exam history & statistics
-✔ PDF export of results
-✔ Multi-language support
+### 📚 Question System
+
+- All 300 official questions
+- Bundesland-specific questions
+- Mixed exam simulation (33 questions)
+- Open questions trainer
+
+### 🧠 Smart Learning
+
+- Wrong answers trainer
+- Exam history & statistics
+- PDF export of results
+
+### 🌍 Multi-language Support
 
 - German
 - English
 - Bengali
 
-✔ Firebase authentication
+### 🔐 Authentication
+
+Firebase Authentication with:
 
 - Google
 - GitHub
@@ -34,16 +47,16 @@ https://lebide.web.app
 - Email
 - Anonymous
 
-✔ Cloud persistence
+### ☁️ Cloud Persistence
 
-- Firebase Realtime DB
-- Firestore
+- Firebase Realtime Database
+- Firebase Firestore
 
-✔ Modern UI
+### 🎨 Modern UI
 
 - TailwindCSS
-- Framer Motion
-- Responsive layout
+- Framer Motion animations
+- Fully responsive layout
 
 ---
 
@@ -51,31 +64,31 @@ https://lebide.web.app
 
 ### Homepage
 
-![Home](public/screenshots/home.png)
+![Home](docs/screenshots/home.png)
 
 ### Quiz Mode
 
-![Quiz](public/screenshots/quiz.png)
+![Quiz](docs/screenshots/quiz.png)
 
 ### Mixed Test
 
-![Mixed Test](public/screenshots/mixed-test.png)
+![Mixed Test](docs/screenshots/mixed-test.png)
 
 ### Wrong Answers Trainer
 
-![Wrong Answers](public/screenshots/wrong-answers.png)
+![Wrong Answers](docs/screenshots/wrong-answers.png)
 
 ---
 
 ## 🧠 Learning Modes
 
-| Mode            | Description                            |
-| --------------- | -------------------------------------- |
-| General         | Practice the official 300 questions    |
-| Bundesland Mode | State-specific questions               |
-| Mixed Test      | Simulates the real exam (33 questions) |
-| Wrong Answers   | Train the questions you answered wrong |
-| Open Questions  | Learn the unanswered/unsure questions  |
+| Mode              | Description                            |
+| ----------------- | -------------------------------------- |
+| General Questions | Practice the official 300 questions    |
+| Bundesland Mode   | State-specific questions               |
+| Mixed Test        | Simulates the real exam (33 questions) |
+| Wrong Answers     | Train the questions you answered wrong |
+| Open Questions    | Practice unanswered questions          |
 
 ---
 
@@ -84,7 +97,8 @@ https://lebide.web.app
 **Frontend**
 
 - React (Create React App)
-- TailwindCSS + Framer Motion
+- TailwindCSS
+- Framer Motion
 
 **Backend Services**
 
@@ -120,25 +134,13 @@ public/
 
 ## ⚙️ Installation
 
-Clone repository
-
 ```bash
 git clone https://github.com/somdrabb/LebenInDeutschlandTest.git
-```
-
-Install dependencies
-
-```bash
 npm install
-```
-
-Start development server
-
-```bash
 npm start
 ```
 
-Build production version
+Build production bundle:
 
 ```bash
 npm run build
@@ -148,7 +150,7 @@ npm run build
 
 ## 🔐 Environment Variables
 
-Create `.env` with live credentials. Never commit `.env`.
+Create `.env` with your credentials. Never commit `.env`.
 
 ```
 REACT_APP_FIREBASE_API_KEY=
@@ -166,133 +168,46 @@ REACT_APP_RECAPTCHA_SITE_KEY=
 
 ## 🚀 Deployment
 
-Deploy to Firebase Hosting
-
 ```bash
 npm run build-deploy
 ```
+
+Deploys the SPA to Firebase Hosting.
 
 ---
 
 ## 🧭 Roadmap
 
-- Progressive Web App (installable)
+- Progressive Web App (PWA)
 - AI explanations for questions
 - Spaced repetition learning system
 - Leaderboards
 - Advanced analytics
-- Mobile app / wrappers
+- Mobile application
+
+For detailed implementation ideas see `docs/PRODUCT_UPGRADES.md`.
 
 ---
 
-## 🛠 Product Upgrades
+## 📚 Docs
 
-### 2️⃣ Progressive Web App (PWA)
+- [Architecture](docs/ARCHITECTURE.md)
+- [Datasets](docs/DATASETS.md)
+- [Security](docs/SECURITY.md)
+- [Product upgrades](docs/PRODUCT_UPGRADES.md)
+- [Changelog](CHANGELOG.md)
 
-Installable + offline-ready experience:
+---
 
-1. Install Workbox
+## 🤝 Contributing
 
-```bash
-npm install workbox-webpack-plugin
-```
+Contributions are welcome—see [CONTRIBUTING.md](CONTRIBUTING.md) for the workflow.
 
-2. Update `manifest.json`
+---
 
-```json
-{
-  "name": "LebiDE",
-  "short_name": "LebiDE",
-  "start_url": "/",
-  "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#ff6b00",
-  "icons": [
-    {
-      "src": "/icon-192.png",
-      "sizes": "192x192",
-      "type": "image/png"
-    },
-    {
-      "src": "/icon-512.png",
-      "sizes": "512x512",
-      "type": "image/png"
-    }
-  ]
-}
-```
+## 🔒 Security
 
-3. Register the service worker (in `src/index.js` or entry file):
-
-```diff
-- serviceWorker.unregister();
-+ serviceWorker.register();
-```
-
-With these steps the app caches assets, loads fast, and can be installed to home screens.
-
-### 3️⃣ AI explanations for questions 🤖
-
-Add an “Explain with AI” button in the quiz UI:
-
-```jsx
-<button onClick={explainQuestion}>Explain with AI</button>
-```
-
-When the user clicks the button, call an API that uses an LLM prompt like:
-
-```
-Explain why the correct answer is correct for a German citizenship test question.
-
-Question:
-In Germany people may criticize the government because...
-
-Correct answer:
-Freedom of opinion.
-
-Explain simply for immigrants learning German civics.
-```
-
-Example backend call:
-
-```js
-const response = await fetch('/api/explain', {
-  method: 'POST',
-  body: JSON.stringify({
-    question,
-    correctAnswer,
-  }),
-});
-```
-
-The API returns a short paragraph linking the correct answer to the Grundgesetz so learners receive context in their own language.
-
-### 4️⃣ Spaced Repetition Learning (Anki-style)
-
-Priority = `wrongCount * 3 + daysSinceSeen - correctCount`. Firestore stores a progress object per user:
-
-```
-users
-  userId
-    questionProgress
-      q23
-        correct: 3
-        wrong: 1
-        lastSeen: timestamp
-```
-
-Track `difficulty`, `lastSeen`, `correctCount`, and `wrongCount`. When you fetch the next quiz, sort by the highest priority so the system cycles through weak, forgotten, or recent mistakes.
-
-### 5️⃣ Real exam simulation mode
-
-Build a dedicated mode with:
-
-- 60-minute timer
-- 33 randomized questions
-- Locked navigation until the timer stops
-- Official scoring + instant summary sheet
-
-The current quiz shell already renders questions and results, so add the timer/hooks and restrict navigation when this mode is active.
+Please report vulnerabilities privately and avoid committing secrets (Firebase keys, OAuth secrets, EmailJS private keys, `.env` files). See [docs/SECURITY.md](docs/SECURITY.md) for details.
 
 ---
 
@@ -304,4 +219,4 @@ MIT License
 
 ## 👨‍💻 Author
 
-Created by **Somdrabb** | Project: **LebiDE — Kompetenz für Integration**
+Somdrabb | LebiDE — Kompetenz für Integration
