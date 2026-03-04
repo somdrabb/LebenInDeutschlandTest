@@ -30,7 +30,7 @@ LebiDE is an interactive learning platform for preparing the **Leben in Deutschl
 
 ### Home Page
 
-![Home](public/screenshots/home.png)
+![Home](public/screenshots/Home.png)
 
 ### Bundesland Selection
 ![Bundesland](docs/screenshots/bundesland.png)
