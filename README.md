@@ -1,16 +1,41 @@
 # 🇩🇪 LebiDE — Leben in Deutschland Test Trainer
 
-![React](https://img.shields.io/badge/React-18-blue) ![Firebase](https://img.shields.io/badge/Firebase-Hosting-orange) ![License](https://img.shields.io/badge/License-MIT-green) ![Build](https://img.shields.io/badge/build-passing-brightgreen) ![Questions](https://img.shields.io/badge/questions-460-blue)
+![LebiDE Preview](docs/screenshots/home.png)
+![React](https://img.shields.io/badge/React-18-blue) ![Firebase](https://img.shields.io/badge/Firebase-Hosting-orange) ![License](https://img.shields.io/badge/License-MIT-green) ![CI](https://github.com/somdrabb/LebenInDeutschlandTest/actions/workflows/ci.yml/badge.svg) ![Questions](https://img.shields.io/badge/questions-300-blue)
 
-Interactive learning platform to prepare for the official German citizenship tests:
+Interactive learning platform to prepare for the official German citizenship tests (Leben in Deutschland & Einbürgerungstest).
 
-- Leben in Deutschland
-- Einbürgerungstest
+Practice all 300 official BAMF questions (plus translated variants), train weak areas, and simulate the real exam with smart quiz modes, Firebase persistence, and a responsive Tailwind + Framer Motion UI.
 
-Practice all 300 official BAMF questions, train weak areas, and simulate the real exam using smart quiz modes, Firebase persistence, and a modern UI built with React, TailwindCSS, and Framer Motion.
+💡 **Why LebiDE?**
 
-🚀 Live Demo
+- Complete official question catalogue
+- Smart mistake-focused learning
+- Realistic exam simulation
+- Multilingual support for immigrants
 
+## 📑 Table of Contents
+
+- [Live Demo](#-live-demo)
+- [Features](#-features)
+- [Screenshots](#-screenshots)
+- [Learning Modes](#-learning-modes)
+- [Tech Stack](#-tech-stack)
+- [Project Structure](#-project-structure)
+- [Installation](#-installation)
+- [Environment Variables](#-environment-variables)
+- [Deployment](#-deployment)
+- [Roadmap](#-roadmap)
+- [Docs](#-docs)
+- [Contributing](#-contributing)
+- [Security](#-security)
+- [License](#-license)
+
+---
+
+## 🚀 Live Demo
+
+🌐 **Try the app:**  
 https://lebide.web.app
 
 ---
@@ -128,19 +153,38 @@ public/
 ├── bundesland
 ├── assets
 └── questions.json
+
+docs/
+├── ARCHITECTURE.md
+├── DATASETS.md
+├── PRODUCT_UPGRADES.md
+└── SECURITY.md
 ```
 
 ---
 
 ## ⚙️ Installation
 
+Clone repository
+
 ```bash
 git clone https://github.com/somdrabb/LebenInDeutschlandTest.git
+cd LebenInDeutschlandTest
+```
+
+Install dependencies
+
+```bash
 npm install
+```
+
+Start development server
+
+```bash
 npm start
 ```
 
-Build production bundle:
+Build production bundle
 
 ```bash
 npm run build
@@ -185,7 +229,7 @@ Deploys the SPA to Firebase Hosting.
 - Advanced analytics
 - Mobile application
 
-For detailed implementation ideas see `docs/PRODUCT_UPGRADES.md`.
+For ideas and implementation notes see [docs/PRODUCT_UPGRADES.md](docs/PRODUCT_UPGRADES.md).
 
 ---
 
