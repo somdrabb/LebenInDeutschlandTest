@@ -1,155 +1,154 @@
 # 🇩🇪 LebiDE — Leben in Deutschland Test Trainer
 
-![React](https://img.shields.io/badge/React-18-blue)
-![Firebase](https://img.shields.io/badge/Firebase-Hosting-orange)
-![License](https://img.shields.io/badge/License-MIT-green)
-![Build](https://img.shields.io/badge/build-passing-brightgreen)
-![Questions](https://img.shields.io/badge/questions-460-blue)
+Interactive learning platform to prepare for the official German citizenship test (Leben in Deutschland & Einbürgerungstest).
 
-LebiDE is an interactive learning platform for preparing the **Leben in Deutschland** and **Einbürgerungstest** exams. It delivers the complete official question catalog (460 questions) with multilingual support, smart quiz flows, and a Firebase-powered backend.
+Practice all 300 official BAMF questions, train weak areas, and simulate the real exam using smart modes, Firebase persistence, and a modern Tailwind + Framer Motion UI.
 
-🌐 Built with **React (Create React App), TailwindCSS, Framer Motion, Firebase, and EmailJS**.
+🚀 Live Demo
+
+https://lebide.web.app
 
 ---
 
-## 🚀 Features
+## ✨ Features
 
-- ✅ Full official **460-question catalog** (300 general + 160 Bundesland-specific)
-- 🌍 Multilingual questions (German 🇩🇪, English 🇬🇧, Bengali 🇧🇩)
-- 🧠 Smart quiz modes: learning, mixed exam simulation, wrong answer reviews, unanswered filters
-- 🔐 Firebase Authentication with Google, Facebook, Microsoft, GitHub, email/password, and anonymous providers
-- 📊 Progress tracking persisted in Realtime Database + localStorage helpers
-- 💬 Feedback system backed by Firestore with emoji reactions and admin moderation helpers
-- 📩 Contact form using EmailJS + Google reCAPTCHA for spam protection
-- 📱 Fully responsive mobile-first UI
-- ⚡ Fast SPA experience deployed via Firebase Hosting
+✔ All 300 official questions
+✔ Bundesland-specific questions
+✔ Mixed exam simulation (33 questions)
+✔ Wrong answers trainer
+✔ Open questions practice mode
+✔ Exam history & statistics
+✔ PDF export of results
+✔ Multi-language support
+
+- German
+- English
+- Bengali
+
+✔ Firebase authentication
+
+- Google
+- GitHub
+- Microsoft
+- Facebook
+- Email
+- Anonymous
+
+✔ Cloud persistence
+
+- Firebase Realtime DB
+- Firestore
+
+✔ Modern UI
+
+- TailwindCSS
+- Framer Motion
+- Responsive layout
 
 ---
 
-## 📸 Screenshots
+## 🖼 Screenshots
 
-### Home Page
+### Homepage
 
-![Home](public/screenshots/Home.png)
+![Home](public/screenshots/home.png)
 
-### Quiz Interface
+### Quiz Mode
 
 ![Quiz](public/screenshots/quiz.png)
 
-### Mixed Test Mode
+### Mixed Test
 
 ![Mixed Test](public/screenshots/mixed-test.png)
 
-### Wrong Answers Review
+### Wrong Answers Trainer
 
 ![Wrong Answers](public/screenshots/wrong-answers.png)
 
 ---
 
-## 🧱 Tech Stack
+## 🧠 Learning Modes
 
-| Layer            | Technology                  |
-| ---------------- | --------------------------- |
-| Frontend         | React (Create React App)    |
-| UI               | TailwindCSS + Framer Motion |
-| Authentication   | Firebase Authentication     |
-| Realtime Sync    | Firebase Realtime Database  |
-| Feedback Storage | Firebase Firestore          |
-| Forms            | EmailJS                     |
-| Spam Protection  | Google reCAPTCHA            |
-| Hosting          | Firebase Hosting            |
+| Mode            | Description                            |
+| --------------- | -------------------------------------- |
+| General         | Practice the official 300 questions    |
+| Bundesland Mode | State-specific questions               |
+| Mixed Test      | Simulates the real exam (33 questions) |
+| Wrong Answers   | Train the questions you answered wrong |
+| Open Questions  | Learn the unanswered/unsure questions  |
 
 ---
 
-## 🧭 Architecture & Flow
+## 🏗 Tech Stack
 
-- **Frontend:** CRA entry point (`src/index.js`) renders `App.js`, which orchestrates the phase-based UI (home, quiz, contact, feedback, wrong answers).
-- **Component module:** `src/components/index.js` exports shared UI widgets (`AuthForm`, `ContactForm`, `FeedbackForm`, `LoginModal`, `ShareCard`, `WrongList`, `Footer`, `LanguageSelector`).
-- **Quiz features:** `features/quiz` houses `LebenInDeutschland.js`, `MixedTest.js`, and `UnansweredQuestions.js`, handling question flow, answer tracking, and review states.
-- **Data:** Static JSON question files live under `public/` (per Bundesland or general) and are fetched at runtime.
-- **Services:** `src/services/firebase.js` bootstraps Firebase apps/providers; `src/services/authHandlers.js` centralizes login flows and `onAuthStateChanged` handling.
-- **Utils:** `src/utils/wrongAnswers.js` and localStorage helpers manage persisted state such as wrong answers and quiz history.
-- **Backend:** Firebase (Auth, Realtime Database, Firestore) synchronizes user progress, feedback, and contact submissions. EmailJS + reCAPTCHA powers the contact workflow.
+**Frontend**
+
+- React (Create React App)
+- TailwindCSS + Framer Motion
+
+**Backend Services**
+
+- Firebase Authentication
+- Firebase Realtime Database
+- Firebase Firestore
+
+**Hosting**
+
+- Firebase Hosting
 
 ---
 
-## 📂 Project Structure
+## 📁 Project Structure
 
 ```
 src/
-  App.js                       # Phase-based routing + UI shell
-  index.js                     # React entry
-  index.css                    # Tailwind + global styles
-
-  pages/
-    HomeSelect.js              # Landing, navigation, and quiz launcher
-
-  features/
-    quiz/
-      LebenInDeutschland.js    # Quiz engine + UI
-      MixedTest.js             # Mixed test logic
-      UnansweredQuestions.js   # Unanswered question review
-
-  components/
-    index.js                   # Shared components exported together
-
-  data/
-    bundeslaender.js           # Bundesland metadata
-    languages.js               # Language configuration
-
-  services/
-    firebase.js                # Firebase init + providers
-    authHandlers.js            # Auth helper flows
-
-  utils/
-    wrongAnswers.js            # LocalStorage helpers (wrong answers, quizzes)
+├── components
+├── features
+│   └── quiz
+├── pages
+├── services
+├── utils
+└── data
 
 public/
-  questions/                   # General question JSON files
-  bundesland/                 # Bundesland-specific JSON files
-  assets/                      # Icons, PDFs, static media
+├── bundesland
+├── assets
+└── questions.json
 ```
 
 ---
 
 ## ⚙️ Installation
 
-Clone the repository:
+Clone repository
 
 ```bash
 git clone https://github.com/somdrabb/LebenInDeutschlandTest.git
-cd LebenInDeutschlandTest
 ```
 
-Install dependencies:
+Install dependencies
 
 ```bash
 npm install
 ```
 
-Start development server:
+Start development server
 
 ```bash
 npm start
 ```
 
-Build production bundle:
+Build production version
 
 ```bash
 npm run build
 ```
 
-Deploy-ready build (runs build + Firebase deploy):
-
-```bash
-npm run build-deploy
-```
-
 ---
 
-## 🔑 Environment Variables
+## 🔐 Environment Variables
 
-Create a `.env` file with the Firebase, EmailJS, and reCAPTCHA keys listed below. Do **not** commit `.env`.
+Create `.env` with live credentials. Never commit `.env`.
 
 ```
 REACT_APP_FIREBASE_API_KEY=
@@ -157,127 +156,143 @@ REACT_APP_FIREBASE_AUTH_DOMAIN=
 REACT_APP_FIREBASE_PROJECT_ID=
 
 REACT_APP_EMAILJS_SERVICE_ID=
-REACT_APP_EMAILJS_TEMPLATE_CONTACT=
-REACT_APP_EMAILJS_TEMPLATE_REPLY=
+REACT_APP_EMAILJS_TEMPLATE_ID=
 REACT_APP_EMAILJS_PUBLIC_KEY=
 
 REACT_APP_RECAPTCHA_SITE_KEY=
 ```
 
-See `.env.example` for full context.
-
 ---
 
-## 🔥 Firebase Hosting
+## 🚀 Deployment
 
-Login to Firebase:
+Deploy to Firebase Hosting
 
 ```bash
-firebase login
-```
-
-Deploy the SPA:
-
-```bash
-npm run build
-firebase deploy
-```
-
-The `firebase.json` config rewrites all routes to `build/index.html` so the client handles routing.
-
----
-
-## 📊 Quiz Data
-
-The project bundles the **complete official question dataset**.
-
-| Category             | Questions |
-| -------------------- | --------- |
-| General questions    | 300       |
-| Bundesland questions | 160       |
-| **Total**            | **460**   |
-
-JSON files live under `public/` and `public/bundesland/` and are loaded via fetch in the quiz components.
-
----
-
-## 🔐 Authentication Flow
-
-1. User opens the login modal.
-2. Firebase provider login executes via `authHandlers.js`.
-3. `onAuthStateChanged` in `App.js` updates the UI and persists session state.
-
-Supported providers: Google, Facebook, Microsoft, GitHub, email/password, anonymous.
-
----
-
-## 💾 Local Storage Keys
-
-| Key                  | Purpose                         |
-| -------------------- | ------------------------------- |
-| `wrongAnswers`       | Tracks incorrect questions      |
-| `quiz_history`       | Captures quiz attempts          |
-| `mixed_test_results` | Stores exam simulation outcomes |
-| `selectedBundesland` | Records the active Bundesland   |
-| `lebide_ui_state`    | UI state cache                  |
-
----
-
-## 🛠 Scripts
-
-```
-npm start
-npm run build
 npm run build-deploy
 ```
 
 ---
 
-## 🤝 Contributing
+## 🧭 Roadmap
 
-Contributions welcome!
-
-1. Fork the repository.
-2. Create a feature branch.
-3. Submit a Pull Request.
-
-Please include changelog notes for any architectural updates.
-
----
-
-## 🌐 Live Demo
-
-🚀 [https://lebide.web.app](https://lebide.web.app)
+- Progressive Web App (installable)
+- AI explanations for questions
+- Spaced repetition learning system
+- Leaderboards
+- Advanced analytics
+- Mobile app / wrappers
 
 ---
 
-## 📊 Project Stats
+## 🛠 Product Upgrades
 
-- Total Questions: **460**
-- Bundesländer Covered: **16**
-- Languages Supported: **3**
-- Quiz Modes: **4**
-- Authentication Providers: **6**
+### 2️⃣ Progressive Web App (PWA)
 
----
+Installable + offline-ready experience:
 
-## 🧠 Quiz Modes
+1. Install Workbox
 
-| Mode          | Description                       |
-| ------------- | --------------------------------- |
-| Learning Mode | Practice questions by topic       |
-| Mixed Test    | Simulates the real exam           |
-| Wrong Answers | Review mistakes and explanations  |
-| Unanswered    | Continue unfinished question sets |
+```bash
+npm install workbox-webpack-plugin
+```
 
----
+2. Update `manifest.json`
 
-## 📚 Documentation
+```json
+{
+  "name": "LebiDE",
+  "short_name": "LebiDE",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ff6b00",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
+```
 
-- [Architecture](docs/ARCHITECTURE.md)
-- [Datasets](docs/DATASETS.md)
-- [Security](docs/SECURITY.md)
-- [Changelog](CHANGELOG.md)
+3. Register the service worker (in `src/index.js` or entry file):
+
+```diff
+- serviceWorker.unregister();
++ serviceWorker.register();
+```
+
+With these steps the app caches assets, loads fast, and can be installed to home screens.
+
+### 3️⃣ AI explanations for questions 🤖
+
+Add an “Explain with AI” button in the quiz UI:
+
+```jsx
+<button onClick={explainQuestion}>Explain with AI</button>
+```
+
+When the user clicks the button, call an API that uses an LLM prompt like:
+
+```
+Explain why the correct answer is correct for a German citizenship test question.
+
+Question:
+In Germany people may criticize the government because...
+
+Correct answer:
+Freedom of opinion.
+
+Explain simply for immigrants learning German civics.
+```
+
+Example backend call:
+
+```js
+const response = await fetch('/api/explain', {
+  method: 'POST',
+  body: JSON.stringify({
+    question,
+    correctAnswer,
+  }),
+});
+```
+
+The API returns a short paragraph linking the correct answer to the Grundgesetz so learners receive context in their own language.
+
+### 4️⃣ Spaced Repetition Learning (Anki-style)
+
+Priority = `wrongCount * 3 + daysSinceSeen - correctCount`. Firestore stores a progress object per user:
+
+```
+users
+  userId
+    questionProgress
+      q23
+        correct: 3
+        wrong: 1
+        lastSeen: timestamp
+```
+
+Track `difficulty`, `lastSeen`, `correctCount`, and `wrongCount`. When you fetch the next quiz, sort by the highest priority so the system cycles through weak, forgotten, or recent mistakes.
+
+### 5️⃣ Real exam simulation mode
+
+Build a dedicated mode with:
+
+- 60-minute timer
+- 33 randomized questions
+- Locked navigation until the timer stops
+- Official scoring + instant summary sheet
+
+The current quiz shell already renders questions and results, so add the timer/hooks and restrict navigation when this mode is active.
 
 ---
 
